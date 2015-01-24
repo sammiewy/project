@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2012-11-30T07:27:28.979033Z"
+   url="https://192.168.2.106/svn/trainHtml2/trunk/trainHtml4/WebContent/img"
+   last-author="jinpin"
+   kind="dir"
+   uuid="70e37eeb-7869-6547-b852-c591405a270e"
+   repos="https://192.168.2.106/svn/trainHtml2"
+   revision="11"/>
+<entry
+   committed-rev="3"
+   name="logo.jpg"
+   text-time="2012-11-30T07:42:39.328125Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="2179f50a0a47414058b8672255175777"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:19.828125Z"/>
+<entry
+   committed-rev="3"
+   name="hf.png"
+   text-time="2012-11-30T07:42:39.343750Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="9134c03889c1341608636ce3e8961e8f"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:20.171875Z"/>
+<entry
+   committed-rev="3"
+   name="question.jpg"
+   text-time="2012-11-30T07:42:39.359375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="099fa25b418d8a65e261649c4e86332e"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:20.265625Z"/>
+<entry
+   committed-rev="3"
+   name="search.png"
+   text-time="2012-11-30T07:42:39.390625Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="8d2a03378fc8d9793ae527d013840788"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:20.359375Z"/>
+<entry
+   committed-rev="3"
+   name="successfulCase.jpg"
+   text-time="2012-11-30T07:42:39.406250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="046c494b966f084aa1aaca125e5eeedd"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:20.593750Z"/>
+<entry
+   committed-rev="3"
+   name="faq.png"
+   text-time="2012-11-30T07:42:39.421875Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="05d58a931442a84dbbd5d2d4a9b143a2"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:20.859375Z"/>
+<entry
+   committed-rev="3"
+   name="上传资料.png"
+   text-time="2012-11-30T07:42:39.437500Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="102a83f31e22aa202919b764599f716d"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:21.093750Z"/>
+<entry
+   committed-rev="3"
+   name="考试提示.jpg"
+   text-time="2012-11-30T07:42:39.437500Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="b8ee59091a2aa25050e52ca67c378d54"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:21.906250Z"/>
+<entry
+   committed-rev="3"
+   name="9999.png"
+   text-time="2012-11-30T07:42:39.453125Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="dea71f0c9fc5f9c026700514667790b7"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:24.328125Z"/>
+<entry
+   committed-rev="3"
+   name="审核学生.png"
+   text-time="2012-11-30T07:42:39.468750Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="abf0b6972e023aefecf3e25af7981b02"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:24.593750Z"/>
+<entry
+   committed-rev="3"
+   name="E_log.png"
+   text-time="2012-11-30T07:42:39.484375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="dea71f0c9fc5f9c026700514667790b7"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:36.625000Z"/>
+<entry
+   committed-rev="3"
+   name="hot.jpg"
+   text-time="2012-11-30T07:42:39.484375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="4bd0d34f41bd93a787952499590da324"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:36.640625Z"/>
+<entry
+   committed-rev="3"
+   name="u=186838078,329202533&amp;fm=23&amp;gp=0.jpg"
+   text-time="2012-11-30T07:42:39.500000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="c8ec014e87a59257198dad61dfec99af"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:36.875000Z"/>
+<entry
+   committed-rev="3"
+   name="head.jpg"
+   text-time="2012-11-30T07:42:39.515625Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="22ab8b005c54d92133f8615bde1a9d36"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:36.875000Z"/>
+<entry
+   committed-rev="3"
+   name="发布考核.png"
+   text-time="2012-11-30T07:42:39.531250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="70323b721dba253df2fcf286a4ef5a30"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:36.968750Z"/>
+<entry
+   committed-rev="3"
+   name="成绩单.png"
+   text-time="2012-11-30T07:42:39.546875Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="3159dcd5d4938d3fa6d45d474e4c5939"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:37.171875Z"/>
+<entry
+   committed-rev="3"
+   name="go.jpg"
+   text-time="2012-11-30T07:42:39.640625Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="c2d27aaa2357abf7b91649b0a108903b"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:37.218750Z"/>
+<entry
+   committed-rev="3"
+   name="gears.png"
+   text-time="2012-11-30T07:42:39.546875Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="d658cd3aa2ae8913a1ed25b36fc87164"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:37.203125Z"/>
+<entry
+   committed-rev="3"
+   name="glyphicons-halflings-white.png"
+   text-time="2012-11-30T07:42:39.656250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="9bbc6e9602998a385c2ea13df56470fd"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:37.234375Z"/>
+<entry
+   committed-rev="3"
+   name="T_log.png"
+   text-time="2012-11-30T07:42:39.687500Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="c1c7e7ddb0b89d305f7b356a760b0dcc"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:38.000000Z"/>
+<entry
+   committed-rev="3"
+   name="rdn_4ddc953d6415b.jpg"
+   text-time="2012-11-30T07:42:39.671875Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="d7e44562c8f0602510351095abc9a4d2"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:37.343750Z"/>
+<entry
+   committed-rev="3"
+   name="userPictrue.jpg"
+   text-time="2012-11-30T07:42:39.687500Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="7459fe7fdf4850e0a8006dd8c3519278"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:38.015625Z"/>
+<entry
+   committed-rev="3"
+   name="发布公告.png"
+   text-time="2012-11-30T07:42:39.703125Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="ff0bf21f19d27b23325272dcb1f1051d"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:38.078125Z"/>
+<entry
+   committed-rev="3"
+   name="不耻下问.jpg"
+   text-time="2012-11-30T07:42:39.750000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="9a482aa533b078bca04ac1939cfa48d1"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:38.281250Z"/>
+<entry
+   committed-rev="3"
+   name="testTip1.png"
+   text-time="2012-11-30T07:42:39.765625Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="2c5e52eb3f80bbde8cc76ff1f46cbffa"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:38.562500Z"/>
+<entry
+   committed-rev="3"
+   name="u=637725127,1419137740&amp;fm=52&amp;gp=0.jpg"
+   text-time="2012-11-30T07:42:39.765625Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="c6cc2be109704a90cdc72e54b582cde9"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:38.296875Z"/>
+<entry
+   committed-rev="3"
+   name="studentsThanks.jpg"
+   text-time="2012-11-30T07:42:39.812500Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="f78d2a5500bf2c27c9d1bee627791186"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:38.921875Z"/>
+<entry
+   committed-rev="3"
+   name="testTip2.png"
+   text-time="2012-11-30T07:42:39.796875Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="f1f5acd2db765b2b28fbdf7fc294390e"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:38.640625Z"/>
+<entry
+   committed-rev="3"
+   name="user.png"
+   text-time="2012-11-30T07:42:39.781250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="043e6e62bfa6b867de6ded53a7a38f8b"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:38.578125Z"/>
+<entry
+   committed-rev="3"
+   name="classOpen.jpg"
+   text-time="2012-11-30T07:42:39.812500Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="713a9abddbfadf5da8e13f7c79216b1b"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:39.078125Z"/>
+<entry
+   committed-rev="3"
+   name="glyphicons-halflings.png"
+   text-time="2012-11-30T07:42:39.828125Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="2516339970d710819585f90773aebe0a"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:39.093750Z"/>
+<entry
+   committed-rev="3"
+   name="home.jpg"
+   text-time="2012-11-30T07:42:39.843750Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="3d71c6a4ededb5b24bb5f9d1644bebe1"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:39.109375Z"/>
+<entry
+   committed-rev="3"
+   name="u=2042984160,103421314&amp;fm=23&amp;gp=0.jpg"
+   text-time="2012-11-30T07:42:39.859375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="53c94d1e69fb7f36add1197d7f860649"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:39.125000Z"/>
+<entry
+   committed-rev="3"
+   name="gear_64.png"
+   text-time="2012-11-30T07:42:39.859375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="59af0e148b3a86eb7b0cf35afc18433a"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:39.140625Z"/>
+<entry
+   committed-rev="3"
+   name="在线练习title.jpg"
+   text-time="2012-11-30T07:42:39.875000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="859baf5b857d70dff5472591069970a2"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:39.281250Z"/>
+<entry
+   committed-rev="3"
+   name="bulb_on_64.png"
+   text-time="2012-11-30T07:42:39.890625Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="da6b4cbda8df1d2e7be4b86823fab02a"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:39.296875Z"/>
+<entry
+   committed-rev="3"
+   name="book.png"
+   text-time="2012-11-30T07:42:39.906250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="f3309a6552d79566a8d6cb3862c264e8"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:39.296875Z"/>
+</wc-entries>

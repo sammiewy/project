@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="11"
+   name=""
+   committed-date="2012-11-30T09:07:00.795117Z"
+   url="https://192.168.2.106/svn/trainHtml2/trunk/trainHtml4/WebContent"
+   last-author="jinpin"
+   kind="dir"
+   uuid="70e37eeb-7869-6547-b852-c591405a270e"
+   repos="https://192.168.2.106/svn/trainHtml2"
+   revision="11"/>
+<entry
+   committed-rev="8"
+   name="student_index.html"
+   text-time="2012-11-30T09:11:33.703125Z"
+   committed-date="2012-11-30T08:24:07.189173Z"
+   checksum="6d93d50c485a62689408ac8ae886e97d"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T09:11:33.359375Z"/>
+<entry
+   committed-rev="3"
+   name="downloadhome.html"
+   text-time="2012-11-30T07:42:40.281250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="7154f404907e28c4472d3fb3d44d56e0"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:10.562500Z"/>
+<entry
+   name="themes"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="exam_list.html"
+   text-time="2012-11-30T07:42:40.359375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="a47e73b264fdcf563600d2cfe5c6ebd7"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:15.421875Z"/>
+<entry
+   committed-rev="3"
+   name="course_show.html"
+   text-time="2012-11-30T07:42:40.421875Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="0778730e6742afff6e35a3951a908cfe"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.015625Z"/>
+<entry
+   committed-rev="3"
+   name="student_class_list.html"
+   text-time="2012-11-30T07:42:40.484375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="bcc8800f1219035f128b5f502fd2c34a"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.953125Z"/>
+<entry
+   committed-rev="3"
+   name="listofsrc.html"
+   text-time="2012-11-30T07:42:40.500000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="b75ace3cded42f73a2217c99a8ac6227"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:17.078125Z"/>
+<entry
+   name="js"
+   kind="dir"/>
+<entry
+   name="img"
+   kind="dir"/>
+<entry
+   name="lang"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="org_index.html"
+   text-time="2012-11-30T07:42:40.281250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="ee75f77bb5b3e595f6644345370e42c9"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:10.562500Z"/>
+<entry
+   name="default"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="online_train.html"
+   text-time="2012-11-30T07:42:40.296875Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="5b37be9c94cecf55d3c12cc890de90ff"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:10.671875Z"/>
+<entry
+   committed-rev="3"
+   name="course_detail.html"
+   text-time="2012-11-30T07:42:40.312500Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="a24d9948e4281d7e1aa86f2f855d1974"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:10.703125Z"/>
+<entry
+   committed-rev="3"
+   name="org_list.html"
+   text-time="2012-11-30T07:42:40.328125Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="7271c631ccaa783c738de2b4b1ab012e"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:10.718750Z"/>
+<entry
+   committed-rev="3"
+   name="resource_list.html"
+   text-time="2012-11-30T07:42:40.343750Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="6984f9d4f79823fd136b18403c4f5d03"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:10.718750Z"/>
+<entry
+   committed-rev="3"
+   name="evaluation_tip.html"
+   text-time="2012-11-30T07:42:40.343750Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="1ced71c899fed896e6da0b2ce8ab1f20"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:15.421875Z"/>
+<entry
+   name="css"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="class_application.html"
+   text-time="2012-11-30T07:42:40.375000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="d19a62f0c395e14b931bfb114baca0b4"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:15.968750Z"/>
+<entry
+   committed-rev="3"
+   name="letter_of_admission.html"
+   text-time="2012-11-30T07:42:40.390625Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="75e0ac912b4cc8adb0031f4cb7578431"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:15.984375Z"/>
+<entry
+   committed-rev="11"
+   name="studentPersonal.html"
+   text-time="2012-11-30T09:11:33.734375Z"
+   committed-date="2012-11-30T09:07:00.795117Z"
+   checksum="c0fc8755d4199096be1678a009f0b015"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T09:11:33.593750Z"/>
+<entry
+   committed-rev="3"
+   name="question_index.html"
+   text-time="2012-11-30T07:42:40.406250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="7659c2880462d34c35911ae2b3a914ed"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.000000Z"/>
+<entry
+   committed-rev="3"
+   name="download_index.html"
+   text-time="2012-11-30T07:42:40.390625Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="23c7d2cb7666ba20b3742fbb3ed461fb"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:15.984375Z"/>
+<entry
+   committed-rev="3"
+   name="T_leaning.html"
+   text-time="2012-11-30T07:42:40.437500Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="51e750fe38872cbe6edaf8718de7d70f"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.031250Z"/>
+<entry
+   committed-rev="3"
+   name="question_list.html"
+   text-time="2012-11-30T07:42:40.437500Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="6a8da29f83dca7008e7612d3c1478655"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.109375Z"/>
+<entry
+   committed-rev="3"
+   name="success_case.html"
+   text-time="2012-11-30T07:42:40.453125Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="f313c503d8cd1bf4f1a6e785eb1feb69"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.937500Z"/>
+<entry
+   name="Company"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="note_hall.html"
+   text-time="2012-11-30T07:42:40.468750Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="9dbdace1b9992f2b3ccfc2aa8d6bebaf"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.953125Z"/>
+<entry
+   committed-rev="3"
+   name="index.html"
+   text-time="2012-11-30T07:42:40.500000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="30f6d5634051ffcdec9180fbe58a5554"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.968750Z"/>
+<entry
+   committed-rev="3"
+   name="resourcedetail.html"
+   text-time="2012-11-30T07:42:40.515625Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="7aa3410df9de57efa14cada1eac3866f"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:39.953125Z"/>
+<entry
+   name="ui"
+   kind="dir"/>
+</wc-entries>

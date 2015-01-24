@@ -1,0 +1,534 @@
+/*************************************下面属于试卷页面***************************************/
+/*试卷页面的总体布局*/
+.apDiv1 {
+	position:absolute;
+	left:-200px;
+	top:-40px;
+	width:127px;
+	height:19px;
+	z-index:1;
+	font-size:12px;
+}
+/*总体框架*/
+.apDiv2 {
+	position:absolute;
+	left:4px;
+	top:79px;
+	width:1234px;
+	height:820spx;
+	z-index:1;
+	border:solid 1px;
+}
+ /*左边div*/
+.apDiv3 {
+	position:absolute;
+	left:-2px;
+	top:0px;
+	width:185px;
+	height:833px;
+	z-index:1;
+	background-color:#CCC;
+}
+ /*右边div*/
+.apDiv4 {
+	position:absolute;
+	left:1074px;
+	top:0px;
+	width:192px;
+	height:832px;
+	z-index:1;
+	background-color:#CCC;
+}
+/*当前试卷位置*/
+.apDiv5 {
+	position:absolute;
+	left:206px;
+	top:22px;
+	width:126px;
+	height:19px;
+	z-index:1;
+	font-size:12px;
+}
+/* 试卷来源*/
+.apDiv6 {
+	position:absolute;
+	left:921px;
+	top:21px;
+	width:142px;
+	height:19px;
+	z-index:1;
+	font-size:12px;
+}
+/*试卷*/
+.apDiv7 {
+	position:absolute;
+	left:326px;
+	top:53px;
+	width:62px;
+	height:27px;
+	z-index:1;
+	font-size:24px;
+}
+/*考试时间及学员*/
+.apDiv8 {
+	position:absolute;
+	left:422px;
+	top:60px;
+	width:269px;
+	height:19px;
+	z-index:1;
+}
+/*总分*/
+.apDiv9 {
+	position:absolute;
+	left:688px;
+	top:60px;
+	width:80px;
+	height:20px;
+	z-index:1;
+}
+/*总分的字体颜色为红色*/
+.apDiv9 a{
+	color:#F00;
+	}
+/*第1条横线*/
+.hr1{
+	position:absolute;
+	width:846px;
+	left:206px;
+	color:#999;
+	top: 63px;
+	height: 5px;
+	}
+/*第2条横线*/
+.hr2{
+	position:absolute;
+	width:678px;
+	left:153px;
+	color:#999;
+	top: 119px;
+	}
+ 
+/*T阶段考核考试*/
+.apDiv10 {
+	position:absolute;
+	left:505px;
+	top:97px;
+	width:119px;
+	height:21px;
+	z-index:1;
+}
+/* 选择题*/
+.apDiv11 {
+	position:absolute;
+	left:245px;
+	top:175px;
+	width:328px;
+	height:23px;
+	z-index:1;
+}
+/*试卷内容*/
+.apDiv12 {
+	position:absolute;
+	left:200px;
+	top:145px;
+	width:854px;
+	height:685px;
+	z-index:1;
+}
+.base{
+	
+	}
+/*选择题第1题按钮背景*/
+.apDiv13 {
+	position:absolute;
+	left:10px;
+	margin-top:128px;
+	width:832px;
+	height:26px;
+	z-index:1;
+	background-color:#CCC;
+	font-size:13px;
+	top: 233px;
+	line-height:26px;
+	 
+}
+/*选择题第2题按钮背景*/
+.apDiv14 {
+	position:absolute;
+	left:14px;
+	top:153px;
+	width:826px;
+	height:26px;
+	z-index:1;
+	background-color:#CCC;
+	font-size:13px;
+	line-height:26px;
+}
+/*选择题第3题按钮背景*/
+.apDiv15 {
+	position:absolute;
+	left:12px;
+	top:533px;
+	width:830px;
+	height:26px;
+	z-index:1;
+	background-color:#CCC;
+	font-size:13px;
+	line-height:26px;
+}
+
+/*选择题第4题背景*/
+.apDiv17 {
+	position:absolute;
+	left:12px;
+	top:110px;
+	width:652px;
+	height:26px;
+	z-index:1;
+	background-color:#CCC;
+	font-size:13px;
+	line-height:26px;
+}
+/*试卷第5题背景*/
+.apDiv18 {
+	position:absolute;
+	left:12px;
+	top:259px;
+	width:652px;
+	height:26px;
+	z-index:1;
+	background-color:#CCC;
+	font-size:13px;
+	line-height:26px;
+}
+/*填空题标题*/
+.apDiv19 {
+	position:absolute;
+	left:1px;
+	top:311px;
+	width:402px;
+	height:31px;
+	z-index:1;
+	line-height:26px;
+}
+/*填空题第1题背景*/
+.apDiv20 {
+	position:absolute;
+	left:12px;
+	top:366px;
+	width:652px;
+	height:26px;
+	z-index:1;
+	background-color:#CCC;
+	font-size:13px;
+	line-height:26px;
+}
+/*填空题第2题背景*/
+.apDiv21 {
+	position:absolute;
+	left:12px;
+	top:460px;
+	width:652px;
+	height:26px;
+	z-index:1;
+	background-color:#CCC;
+	font-size:13px;
+	line-height:26px;
+}
+/*时间提示*/
+.timetiptable{
+	width:120px;
+	margin-left:10px;
+	margin-top:50px;
+	font-size:12px;
+	text-align:center;
+	border:#333 solid 1px;
+	background-color:#FFF;
+	}
+/*答题提示的字体颜色*/
+.timetiptable a{
+	color:#F00;
+	}
+/*答题进度*/
+.programingDiv{
+	background-color:#0F0;
+	width:10px;
+	height:15px;
+	
+	}
+ /*填空题第3题答题按钮背景*/
+.apDiv22 {
+	position:absolute;
+	left:12px;
+	top:43px;
+	width:652px;
+	height:26px;
+	z-index:1;
+	background-color:#CCC;
+	font-size:13px;
+	line-height:26px;
+}
+/*填空题第4题答题按钮背景*/
+.apDiv23 {
+	position:absolute;
+	left:12px;
+	top:120px;
+	width:652px;
+	height:26px;
+	z-index:1;
+	background-color:#CCC;
+	font-size:13px;
+	line-height:26px;
+}
+/*填空题第5题答题按钮背景*/
+.apDiv24 {
+	position:absolute;
+	left:12px;
+	top:198px;
+	width:652px;
+	height:26px;
+	z-index:1;
+	background-color:#CCC;
+	font-size:13px;
+	line-height:26px;
+}
+/*填空题第6题答题按钮背景*/
+.apDiv25 {
+	position:absolute;
+	left:12px;
+	top:275px;
+	width:652px;
+	height:26px;
+	z-index:1;
+	background-color:#CCC;	
+	font-size:13px;
+	line-height:26px;
+}
+/*填空题第7题答题按钮背景*/
+.apDiv26 {
+	position:absolute;
+	left:12px;
+	top:358px;
+	width:652px;
+	height:26px;
+	z-index:1;
+	background-color:#CCC;
+	font-size:13px;
+	line-height:26px;
+}
+/*填空题第8题答题按钮背景*/
+.apDiv27 {
+	position:absolute;
+	left:12px;
+	top:435px;
+	width:652px;
+	height:26px;
+	z-index:1;
+	background-color:#CCC;
+	font-size:13px;
+	line-height:26px;
+}
+/*填空题第9题答题按钮背景*/
+.apDiv28 {
+	position:absolute;
+	left:12px;
+	top:45px;
+	width:652px;
+	height:26px;
+	z-index:1;
+	background-color:#CCC;
+	font-size:13px;
+	line-height:26px;
+}
+/*填空题第10题答题按钮背景*/
+.apDiv29 {
+	position:absolute;
+	left:12px;
+	top:451px;
+	width:652px;
+	height:26px;
+	z-index:1;
+	background-color:#CCC;
+	font-size:13px;
+	line-height:26px;
+}	
+/*下一页*/
+.page1{
+	position:absolute;
+	left:247px;
+	top:491px;
+	}
+/*下一页的字体大小及修饰*/
+.page1 a{
+	text-decoration:none;
+	font-size:14px;
+	}
+/*试卷第二页的试卷内容主体*/
+.apDiv16 {
+	position:absolute;
+	left:245px;
+	top:180px;
+	width:675px;
+	height:560px;
+	z-index:1;
+}
+/*上一页*/
+.page2{
+	position:absolute;
+	left:245px;
+	top:608px;
+	}
+/*下一页的字体大小及修饰*/
+.page2 a{
+	text-decoration:none;
+	font-size:14px;
+	}
+/*******************************************下面属于考试提示页面**********************************************/
+/*提示位置*/
+.apDivx{
+	margin-left:30px;
+	margin-top:10px;
+	font-size:12px;
+	width:130px;
+	}
+/*考试提示页面的总体布局*/
+.apDiv30 {
+	position:absolute;
+	left:105px;
+	top:61px;
+	width:960px;
+	height:631px;
+	z-index:1;
+} 
+/*T阶段考核考试的背景*/
+.apDiv31 {
+	position:absolute;
+	margin-left:300px;
+	margin-top:100px;
+	width:259px;
+	height:19px;
+	z-index:1;
+	background-color:#CCC;
+	left:3px;
+	top: 8px;
+}
+/*T阶段考核考试显示框*/
+.apDiv32 {
+	position:absolute;
+	left:309px;
+	top:95px;
+	width:245px;
+	height:33px;
+	z-index:2;
+}
+/*T阶段考核考试的颜色*/
+.apDiv32 a{
+	font-size:34px;
+	color:#09F;
+	}
+/*布局框*/
+.apDiv33 {
+	position:absolute;
+	left:165px;
+	top:230px;
+	width:842px;
+	height:330px;
+	z-index:3;
+	background-color:#F2F2F2;
+}
+/*积分*/
+.apDiv34 {
+	position:absolute;
+	left:381px;
+	top:15px;
+	width:178px;
+	height:25px;
+	z-index:4;
+}
+.apDiv34 a1{
+	color:#00F;
+	}
+.apDiv34 a2{
+	color:#F00;
+	}
+/*总分*/
+.apDiv35 {
+	position:absolute;
+	left:383px;
+	top:65px;
+	width:178px;
+	height:25px;
+	z-index:5;
+}
+.apDiv35 a1{
+	color:#00F;
+	}
+.apDiv35 a2{
+	color:#F00;
+	}
+/*答题时间*/
+.apDiv36 {
+	position:absolute;
+	left:381px;
+	top:121px;
+	width:178px;
+	height:25px;
+	z-index:6;
+}
+.apDiv36 a1{
+	color:#00F;
+	}
+.apDiv36 a2{
+	color:#F00;
+	}
+/*试卷来源*/
+.apDiv37 {
+	position:absolute;
+	left:382px;
+	top:176px;
+	width:178px;
+	height:25px;
+	z-index:7;
+}
+.apDiv37 a1{
+	color:#00F;
+	}
+.apDiv37 a{
+	color:#F00;
+	text-decoration:none;
+	}
+.divNowTime{
+	position:absolute;
+	left:382px;
+	top:233px;
+	width:178px;
+	height:25px;
+	z-index:7;
+	}
+.divNowTime a1{
+	color:#00F;}
+	
+.divNowTime a2{
+	color:#F00;}
+/*开始考试*/
+.apDiv38 {
+	position:absolute;
+	left:381px;
+	top:287px;
+	width:142px;
+	height:37px;
+	z-index:2;
+	background-color:#06F;
+	margin-bottom:10px;
+	text-align:center;
+	line-height:37px;
+	border-radius:5px;
+}
+/*开始考试字体的样式及颜色*/
+.apDiv38 a{
+	color:#FFF;
+	font-size:24px;
+	text-decoration:none;
+	}
+/****************************************下面属于成绩单页面*********************************/

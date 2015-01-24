@@ -1,0 +1,35 @@
+@CHARSET "UTF-8";
+
+#title{
+	height:40px;
+	text-align:left;
+	padding-top:20px;
+	font-size:24px;
+}
+
+.lst{
+	margin-top:12px;
+	border-radius:8px;
+	background-color:#EEEEEE;
+	padding:20px 0px 0px 0px;
+}
+
+.brief{
+	margin-left:0px;
+	margin-bottom:0px;
+	padding-left:12px;
+}
+
+.about{
+	margin-right:0px;
+	border-radius:4px;
+}
+
+.pagination{
+	float:right;
+	margin-top:10px;
+}
+
+.detail{
+	background-color:#F0F7FA;
+}

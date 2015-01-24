@@ -1,0 +1,288 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<link rel="stylesheet" href="css/rebluebootstrap.css" type="text/css"/>
+</head>
+<body>
+		<!-- 顶部固定导航 -->
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner"  style="height:80px">
+				<div class="container">
+					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+					<a class="brand" style="color:#fff" href="">IT精英人才俱乐部</a>
+					<div class="nav-collapse pull-right">
+						<ul class="nav">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">成就能力 <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">在线培训</a>
+									</li>
+									<li>
+										<a href="#">IT精英弟子</a>
+									</li>
+									<li>
+										<a href="#">能力评测</a>
+									</li>
+									<li>
+										<a href="#">IT精英训练营</a>
+									</li>
+									<li>
+										<a href="#">IT精英梦工厂</a>
+									</li>
+								</ul>
+							</li>
+							<!-- <li class="divider-vertical"></li> -->
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">实现价值<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">寻找工作</a>
+									</li>
+									<li>
+										<a href="#">项目协同</a>
+									</li>
+									<li>
+										<a href="#">好为人师</a>
+									</li>
+									<li>
+										<a href="#">训练营老师</a>
+									</li>
+									<li>
+										<a href="#">梦工厂老师</a>
+									</li>
+									<li>
+										<a href="#">评测老师</a>
+									</li>
+								</ul>
+							</li>
+							<!-- <li class="divider-vertical"></li>
+ -->							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">享受快乐<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">好友管理</a>
+									</li>
+									<li>
+										<a href="#">知识管理</a>
+									</li>
+									<li>
+										<a href="#">部落管理</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<p class="navbar-text pull-right">
+							<a href="T_exam_tip.html">通知</a> &nbsp; 欢迎您：<a href="">何大勇</a> | <a>退出</a>
+						</p>
+						<br>
+						<ul class="nav pull-right" style="font-weight:bold;">
+							<li class="active"><a href="index.html">培训中心</a></li>
+							<li><a href="org_list.html">培训机构</a></li>
+							<li><a href="#">资源下载</a></li>
+							<li><a href="#">学习指南</a></li>
+							<li><a href="#">在线练习</a></li>
+							<li><a href="course_show.html">全部课程</a></li>
+				        </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+      
+    <div class="container content">
+       <a href="index.html"><i class="icon-home"></i></a>><a href="index.html">培训中心</a>><a href="#">首页 </a>  
+        <legend></legend>
+        <div id="mid">
+		    <div id="mid1">e</div>
+		    <div id="mid2">t</div>
+		    <div id="mid3">p</div>
+		    <div id="mid4">i</div>
+		</div>
+		<legend id="indexMiddleLegend"></legend>
+		<div class="row">
+			<div class="span9">
+				<div class="row">				    		            
+		            <div class="span3"><img src="img/classOpen.jpg" width="200px" height="200px"/></div>            
+		            <div class="span5 well"  id="indexSearchArea">
+		                <img src="img/search.png" alt="" width="50px" height="50px"/>
+		                <form class="form-search offset1">
+		                        <input type="text" class="input-medium search-query"><button type="submit" class="btn">搜 课</button><br>
+		                         <label class="checkbox inline"  id="indexTechLabel">
+					                	<input id="inlineCheckbox1" value="option1" type="radio" name="keywordType" value="0"> 技能
+					              </label>
+					              <label class="checkbox inline">
+					                	<input id="inlineCheckbox2" value="option2" type="radio" name="keywordType" value="0"> 机构
+					              </label>		
+		                        <label class="checkbox inline" >
+					                	<input id="inlineCheckbox1" value="option1" type="radio" name="stage" value="0"> E阶段
+					              </label>
+					              <label class="checkbox inline">
+					                	<input id="inlineCheckbox2" value="option2" type="radio" name="stage" value="0"> T阶段
+					              </label>							    
+					    </form>
+		            </div>                     		                                      		            		    		    
+				</div>
+				
+				<div class="row">				    		                        
+		            <div class="span3 well" id="indexCourseArea">		                               
+					                 班级：2012012<br>  
+					                 方向：<strong>javaWeb开发</strong><br/>
+					                 机构：<a href="org_index.html"><strong>北京高迈致远</strong></a><br/>
+					                 时间：2012.11.1-2012.12.30<br>
+					                 考核日期：2012.10.25<br><br>
+			              <a class="btn" href="T_exam_application.html">我要报名</a>	               
+		            </div>          
+		            <div class="span3 well" id="indexCourseArea">		                               
+					                 班级：2012012<br>  
+					                 方向：<strong>javaWeb开发</strong><br/>
+					                 机构：<a href="org_index.html"><strong>北京高迈致远</strong></a><br/>
+					                 时间：2012.11.1-2012.12.30<br>
+					                 考核日期：2012.10.25<br><br>
+			              <a class="btn" href="T_exam_application.html">我要报名</a>	               
+		            </div>          
+		            <div class="span3 well" id="indexCourseArea">		                               
+					                 班级：2012012<br>  
+					                 方向：<strong>javaWeb开发</strong><br/>
+					                 机构：<a href="org_index.html"><strong>北京高迈致远</strong></a><br/>
+					                 时间：2012.11.1-2012.12.30<br>
+					                 考核日期：2012.10.25<br><br>
+			              <a class="btn" href="T_exam_application.html">我要报名</a>	               
+		            </div>          
+		            <div class="span3 well" id="indexCourseArea">		                               
+					                 班级：2012012<br>  
+					                 方向：<strong>javaWeb开发</strong><br/>
+					                 机构：<a href="org_index.html"><strong>北京高迈致远</strong></a><br/>
+					                 时间：2012.11.1-2012.12.30<br>
+					                 考核日期：2012.10.25<br><br>
+			              <a class="btn" href="T_exam_application.html">我要报名</a>	               
+		            </div>          
+		            <div class="span3 well"  id="indexCourseArea">		                               
+					                 班级：2012012<br>  
+					                 方向：<strong>javaWeb开发</strong><br/>
+					                 机构：<a href="org_index.html"><strong>北京高迈致远</strong></a><br/>
+					                 时间：2012.11.1-2012.12.30<br>
+					                 考核日期：2012.10.25<br><br>
+			              <a class="btn" href="T_exam_application.html">我要报名</a>	               
+		            </div>          
+		            <div class="span3 well" id="indexCourseArea">		                               
+					                 班级：2012012<br>  
+					                 方向：<strong>javaWeb开发</strong><br/>
+					                 机构：<a href="org_index.html"><strong>北京高迈致远</strong></a><br/>
+					                 时间：2012.11.1-2012.12.30<br>
+					                 考核日期：2012.10.25<br><br>
+			              <a class="btn" href="T_exam_application.html">我要报名</a>	               
+		            </div>          
+		            <div class="span3 well" id="indexCourseArea">		                               
+					                 班级：2012012<br>  
+					                 方向：<strong>javaWeb开发</strong><br/>
+					                 机构：<a href="org_index.html"><strong>北京高迈致远</strong></a><br/>
+					                 时间：2012.11.1-2012.12.30<br>
+					                 考核日期：2012.10.25<br><br>
+			              <a class="btn" href="T_exam_application.html">我要报名</a>	               
+		            </div>          
+		            <div class="span3 well" id="indexCourseArea">		                               
+					                 班级：2012012<br>  
+					                 方向：<strong>javaWeb开发</strong><br/>
+					                 机构：<a href="org_index.html"><strong>北京高迈致远</strong></a><br/>
+					                 时间：2012.11.1-2012.12.30<br>
+					                 考核日期：2012.10.25<br><br>
+			              <a class="btn" href="T_exam_application.html">我要报名</a>	               
+		            </div>          
+		            <div class="span3 well" id="indexCourseArea">		                               
+					                 班级：2012012<br>  
+					                 方向：<strong>javaWeb开发</strong><br/>
+					                 机构：<a href="org_index.html"><strong>北京高迈致远</strong></a><br/>
+					                 时间：2012.11.1-2012.12.30<br>
+					                 考核日期：2012.10.25<br><br>
+			              <a class="btn" href="T_exam_application.html">我要报名</a>	               
+		            </div>          
+		            <div class="span3 well" id="indexCourseArea">		                               
+					                 班级：2012012<br>  
+					                 方向：<strong>javaWeb开发</strong><br/>
+					                 机构：<a href="org_index.html"><strong>北京高迈致远</strong></a><br/>
+					                 时间：2012.11.1-2012.12.30<br>
+					                 考核日期：2012.10.25<br><br>
+			              <a class="btn" href="T_exam_application.html">我要报名</a>	               
+		            </div>          
+		            <div class="span3 well" id="indexCourseArea">		                               
+					                 班级：2012012<br>  
+					                 方向：<strong>javaWeb开发</strong><br/>
+					                 机构：<a href="org_index.html"><strong>北京高迈致远</strong></a><br/>
+					                 时间：2012.11.1-2012.12.30<br>
+					                 考核日期：2012.10.25<br><br>
+			              <a class="btn" href="T_exam_application.html">我要报名</a>	               
+		            </div>          
+		            <div class="span3 well" id="indexCourseArea">		                               
+					                 班级：2012012<br>  
+					                 方向：<strong>javaWeb开发</strong><br/>
+					                 机构：<a href="org_index.html"><strong>北京高迈致远</strong></a><br/>
+					                 时间：2012.11.1-2012.12.30<br>
+					                 考核日期：2012.10.25<br><br>
+			              <a class="btn" href="T_exam_application.html">我要报名</a>	               
+		            </div>          
+		                		            		    		    
+				</div>
+				<div class="row">
+				<div class="offset6">				    		                        
+	                <ul class="pager">
+					    <li>
+					    <a href="#">前一组</a>
+					    </li>
+					    <li>
+					    <a href="#">后一组</a>
+					    </li>
+				    </ul>
+				</div>         		            		    		    
+				</div>
+		   </div>
+		   <div class="well" id="rankingList">
+			   <h4>培训机构Hot10</h4>
+			   <a href="">贵州卓越软件</a>
+			   <a href="">北京高迈致远</a>
+			   <a href="">贵州卓越软件</a>
+			   <a href="">北京高迈致远</a>
+			   <a href="">贵州卓越软件</a>
+			   <a href="">北京高迈致远</a>
+			   <a href="">贵州卓越软件</a>
+			   <a href="">北京高迈致远</a>
+			   <a href="">贵州卓越软件</a>
+			   <a href="">北京高迈致远</a>         
+			   <a href="" class="offset1">全部机构>></a>    
+		   </div>
+		   <div class="well" id="rankingList">
+			   <h4>资源下载Hot10</h4>
+			   <a href="">javaWEB指南</a>
+			   <a href="">javascript基础</a>
+			   <a href="">c#0基础入门</a>
+			   <a href="">HTML设计</a>
+			   <a href="">叫你怎样做网页</a>
+			   <a href="">Oracle数据库</a>
+			   <a href="">eclipse快捷操作</a>
+			   <a href="">C++基础入门</a>
+			   <a href="">UI设计经典</a>
+			   <a href="">ajax</a>         
+			   <a href="" class="offset1">其他资源>></a>    
+		   </div>
+		</div>
+		<div id="successfulCase">
+		    <a href=""><img src="img/successfulCase.jpg" width="180px" height="130px" /></a>
+		    <div id="successfulCasePictrue">
+		    <marquee behavior="alternate" loop="-1" scrollamount="3">
+			    <a href="success_case.html"><img id="case" src="img/rdn_4ddc953d6415b.jpg"/></a>
+			    <a href="success_case.html"><img id="case" src="img/u=637725127,1419137740&fm=52&gp=0.jpg"/></a>
+			    <a href="success_case.html"><img id="case" src="img/u=2042984160,103421314&fm=23&gp=0.jpg"/></a>
+			    <a href="success_case.html"><img id="case" src="img/u=186838078,329202533&fm=23&gp=0.jpg"/></a>	    
+		    </marquee>
+		    </div>
+		</div>
+    </div>  
+    <legend class="endline"></legend>    
+    <div id="footer">
+                       <br/>高迈致远信息技术有限公司<br/>
+       Copyright @2002-2012 GM123.cn Corporation, All Rights Reserved       
+    </div>  		
+</body>
+</html>

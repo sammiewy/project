@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="10"
+   name=""
+   committed-date="2012-11-30T09:05:05.137091Z"
+   url="https://192.168.2.106/svn/trainHtml2/trunk/trainHtml4/WebContent/Company"
+   last-author="jinpin"
+   kind="dir"
+   uuid="70e37eeb-7869-6547-b852-c591405a270e"
+   repos="https://192.168.2.106/svn/trainHtml2"
+   revision="11"/>
+<entry
+   committed-rev="3"
+   name="tmanage.html"
+   text-time="2012-11-30T07:42:16.562500Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="ec6ea7193879843499e6053bb8a23bc4"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.187500Z"/>
+<entry
+   committed-rev="3"
+   name="scaffolding.html"
+   text-time="2012-11-30T07:42:16.609375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="6c126c4addc86d7ae79b39f954fafe6b"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.234375Z"/>
+<entry
+   committed-rev="3"
+   name="studentapplydetail.html"
+   text-time="2012-11-30T07:42:16.593750Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="8b88d8354be84c47f13f825c0aa0b42c"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.218750Z"/>
+<entry
+   committed-rev="3"
+   name="checkstudent.html"
+   text-time="2012-11-30T07:42:16.625000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="20549b9c8a2b9a6d4e2020185f7f0992"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.250000Z"/>
+<entry
+   committed-rev="4"
+   name="addstep.html"
+   text-time="2012-11-30T07:07:06.937000Z"
+   committed-date="2012-11-30T07:39:27.533565Z"
+   checksum="64e18ef379999d5f58dbb6f6fa3d80ac"
+   last-author="jinpin"
+   kind="file"
+   schedule="delete"/>
+<entry
+   committed-rev="3"
+   name="appstudent.html"
+   text-time="2012-11-30T07:42:16.640625Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="8b55f8f5a5d67dc7ccc639fdbdf99f86"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.265625Z"/>
+<entry
+   committed-rev="3"
+   name="emanage.html"
+   text-time="2012-11-30T07:42:16.656250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="2f60b3271a726c5ddaf32b786c82a006"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.375000Z"/>
+<entry
+   committed-rev="3"
+   name="model.html"
+   text-time="2012-11-30T07:42:16.671875Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="d0d1e7f553c7943302e7e51c158ab26a"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.406250Z"/>
+<entry
+   committed-rev="10"
+   name="source.html"
+   text-time="2012-11-30T09:11:33.656250Z"
+   committed-date="2012-11-30T09:05:05.137091Z"
+   checksum="ac4fabad18f2a5a558031edb3907b432"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T09:11:33.640625Z"/>
+<entry
+   committed-rev="3"
+   name="entry.html"
+   text-time="2012-11-30T07:42:16.687500Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="4f6d4374b5ef6edc974f5ba9645638d2"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.421875Z"/>
+<entry
+   committed-rev="4"
+   name="editerclass.html"
+   text-time="2012-11-30T05:30:14.234000Z"
+   committed-date="2012-11-30T07:39:27.533565Z"
+   checksum="d6efc6d0bbe56436a43bc9d5af7919ec"
+   last-author="jinpin"
+   kind="file"
+   schedule="delete"/>
+<entry
+   committed-rev="3"
+   name="uploadreference.html"
+   text-time="2012-11-30T07:42:16.703125Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="9dff3596d6e48cc1febe7002facd05e1"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.437500Z"/>
+<entry
+   committed-rev="3"
+   name="teacherapplydetail.html"
+   text-time="2012-11-30T07:42:16.718750Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="ba28cefe482d8fbc470f8cc995f7d779"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.468750Z"/>
+<entry
+   committed-rev="3"
+   name="publishtest.html"
+   text-time="2012-11-30T07:42:16.734375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="038575af1f31bfa1de2bda2e7501a35b"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.484375Z"/>
+<entry
+   committed-rev="3"
+   name="index.html"
+   text-time="2012-11-30T07:42:16.734375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="168ee891b12edbb0d60e912c38e33a6f"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.500000Z"/>
+<entry
+   committed-rev="3"
+   name="checkteacher.html"
+   text-time="2012-11-30T07:42:16.765625Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="226de2df0f88dd5d587d751cdcc4aadc"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.531250Z"/>
+<entry
+   committed-rev="3"
+   name="sourcemanage.html"
+   text-time="2012-11-30T07:42:16.750000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="f9f2056d41cb778a49d2da7f59afb979"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.515625Z"/>
+<entry
+   committed-rev="4"
+   name="coursemanage.html"
+   text-time="2012-11-30T07:18:15.500000Z"
+   committed-date="2012-11-30T07:39:27.533565Z"
+   checksum="f4ab5c4a9c7a0797613fd47d8217e4be"
+   last-author="jinpin"
+   kind="file"
+   schedule="delete"/>
+<entry
+   committed-rev="3"
+   name="appstudentdetail.html"
+   text-time="2012-11-30T07:42:16.781250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="4fcb360d6836c289c71c8b0c314c2520"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:16.546875Z"/>
+</wc-entries>

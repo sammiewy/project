@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2012-11-30T07:27:28.979033Z"
+   url="https://192.168.2.106/svn/trainHtml2/trunk/trainHtml4/WebContent/lang"
+   last-author="jinpin"
+   kind="dir"
+   uuid="70e37eeb-7869-6547-b852-c591405a270e"
+   repos="https://192.168.2.106/svn/trainHtml2"
+   revision="11"/>
+<entry
+   committed-rev="3"
+   name="zh_TW.js"
+   text-time="2012-11-30T07:42:10.484375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="3c41be9acdddf2cab5ce18905550f30c"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:10.406250Z"/>
+<entry
+   committed-rev="3"
+   name="zh_CN.js"
+   text-time="2012-11-30T07:42:10.500000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="48e8415949df6ce98367c0f6685f3e14"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:10.421875Z"/>
+<entry
+   committed-rev="3"
+   name="ar.js"
+   text-time="2012-11-30T07:42:10.515625Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="0893e9dd7b49e64160cd91c45e6518c3"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:10.437500Z"/>
+<entry
+   committed-rev="3"
+   name="en.js"
+   text-time="2012-11-30T07:42:10.531250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="fe0ba94d8ca80f85bf726481fef42872"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:10.453125Z"/>
+</wc-entries>

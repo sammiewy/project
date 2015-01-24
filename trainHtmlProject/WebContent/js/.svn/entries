@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2012-11-30T07:27:28.979033Z"
+   url="https://192.168.2.106/svn/trainHtml2/trunk/trainHtml4/WebContent/js"
+   last-author="jinpin"
+   kind="dir"
+   uuid="70e37eeb-7869-6547-b852-c591405a270e"
+   repos="https://192.168.2.106/svn/trainHtml2"
+   revision="11"/>
+<entry
+   committed-rev="3"
+   name="bootstrap-popover.js"
+   text-time="2012-11-30T07:42:19.484375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="9f3ca7f707bda5f204b330b7fe31102f"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:17.109375Z"/>
+<entry
+   committed-rev="3"
+   name="bootstrap-scrollspy.js"
+   text-time="2012-11-30T07:42:19.500000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="e493bc11a6b5b749d2fc9b7b2cb67f73"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:17.125000Z"/>
+<entry
+   committed-rev="3"
+   name="bootstrap-transition.js"
+   text-time="2012-11-30T07:42:19.578125Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="3a8ecddaeccf4c08771fa2239be1cae3"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:17.125000Z"/>
+<entry
+   committed-rev="3"
+   name="bootstrap-modal.js"
+   text-time="2012-11-30T07:42:19.593750Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="46adf3e107f061692902709fadaeb91d"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:17.140625Z"/>
+<entry
+   committed-rev="3"
+   name="jianbian.js"
+   text-time="2012-11-30T07:42:19.609375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="bbfb97ba42ae0edcd4398b5e258efad9"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:17.140625Z"/>
+<entry
+   committed-rev="3"
+   name="bootstrap-collapse.js"
+   text-time="2012-11-30T07:42:19.640625Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="c8f1c8322bd15bb8ecfeeeec6e706fb4"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:17.156250Z"/>
+<entry
+   committed-rev="3"
+   name="bootstrap.js"
+   text-time="2012-11-30T07:42:19.656250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="4369ecd21e401208e909d75c96812d4d"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:17.265625Z"/>
+<entry
+   committed-rev="3"
+   name="kindeditor-min.js"
+   text-time="2012-11-30T07:42:19.671875Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="d7686878156e48fa5565c225b9ba21b9"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:17.734375Z"/>
+<entry
+   committed-rev="3"
+   name="bootstrap.min.js"
+   text-time="2012-11-30T07:42:19.687500Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="94780d72838538a20c1822225fb7c513"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:17.875000Z"/>
+<entry
+   committed-rev="3"
+   name="jquery.js"
+   text-time="2012-11-30T07:42:19.718750Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="7fd8ffea25728006bfddf7e6c7c122cd"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:18.609375Z"/>
+<entry
+   committed-rev="3"
+   name="application.js"
+   text-time="2012-11-30T07:42:19.718750Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="e35ac06964e5bea6e71849abc3943b48"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:18.625000Z"/>
+<entry
+   committed-rev="3"
+   name="jquery-1.8.2.js"
+   text-time="2012-11-30T07:42:19.734375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="3a316818411b5a80ef878dc5c8483950"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:19.453125Z"/>
+</wc-entries>

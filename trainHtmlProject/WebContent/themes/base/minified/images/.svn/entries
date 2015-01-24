@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2012-11-30T07:27:28.979033Z"
+   url="https://192.168.2.106/svn/trainHtml2/trunk/trainHtml4/WebContent/themes/base/minified/images"
+   last-author="jinpin"
+   kind="dir"
+   uuid="70e37eeb-7869-6547-b852-c591405a270e"
+   repos="https://192.168.2.106/svn/trainHtml2"
+   revision="11"/>
+<entry
+   committed-rev="3"
+   name="ui-icons_2e83ff_256x240.png"
+   text-time="2012-11-30T07:42:13.734375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="25162bf857a8eb83ea932a58436e1049"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:13.390625Z"/>
+<entry
+   committed-rev="3"
+   name="ui-bg_glass_95_fef1ec_1x400.png"
+   text-time="2012-11-30T07:42:13.750000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="5a3be2d8fff8324d59aec3df7b0a0c83"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:13.421875Z"/>
+<entry
+   committed-rev="3"
+   name="ui-icons_888888_256x240.png"
+   text-time="2012-11-30T07:42:13.781250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="faf6f5dc44e713178784c1fb053990aa"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:13.453125Z"/>
+<entry
+   committed-rev="3"
+   name="ui-bg_glass_55_fbf9ee_1x400.png"
+   text-time="2012-11-30T07:42:13.812500Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="f8f4558e0b92ff2cd6136781533902ec"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:13.468750Z"/>
+<entry
+   committed-rev="3"
+   name="ui-bg_glass_75_dadada_1x400.png"
+   text-time="2012-11-30T07:42:13.812500Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="c12c6510dad3ebfa64c8a30e959a2469"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:13.484375Z"/>
+<entry
+   committed-rev="3"
+   name="ui-bg_flat_75_ffffff_40x100.png"
+   text-time="2012-11-30T07:42:13.828125Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="8692e6efddf882acbff144c38ea7dfdf"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:13.500000Z"/>
+<entry
+   committed-rev="3"
+   name="ui-bg_glass_75_e6e6e6_1x400.png"
+   text-time="2012-11-30T07:42:13.843750Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="f4254356c2a8c9a383205ef2c4de22c4"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:13.515625Z"/>
+<entry
+   committed-rev="3"
+   name="ui-bg_glass_65_ffffff_1x400.png"
+   text-time="2012-11-30T07:42:13.859375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="e5a8f32e28fd5c27bf0fed33c8a8b9b5"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:13.562500Z"/>
+<entry
+   committed-rev="3"
+   name="ui-bg_highlight-soft_75_cccccc_1x100.png"
+   text-time="2012-11-30T07:42:13.875000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="72c593d16e998952cd8d798fee33c6f3"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:13.593750Z"/>
+<entry
+   committed-rev="3"
+   name="ui-icons_cd0a0a_256x240.png"
+   text-time="2012-11-30T07:42:13.890625Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="5d8808d43cefca6f6781a5316d176632"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:13.609375Z"/>
+<entry
+   committed-rev="3"
+   name="ui-bg_flat_0_aaaaaa_40x100.png"
+   text-time="2012-11-30T07:42:13.906250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="2a44fbdb7360c60122bcf6dcef0387d8"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:13.671875Z"/>
+<entry
+   committed-rev="3"
+   name="ui-icons_454545_256x240.png"
+   text-time="2012-11-30T07:42:13.906250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="771099482bdc1571ece41073b1752596"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:13.687500Z"/>
+<entry
+   committed-rev="3"
+   name="ui-icons_222222_256x240.png"
+   text-time="2012-11-30T07:42:13.921875Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="9129e086dc488d8bcaf808510bc646ba"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:13.703125Z"/>
+</wc-entries>

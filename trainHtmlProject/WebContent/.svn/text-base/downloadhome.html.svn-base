@@ -1,0 +1,248 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>下载首页</title>
+<link rel="stylesheet" type="text/css" href="css/rebluebootstrap.css"/>
+<link rel="stylesheet" type="text/css" href="css/downloadhome.css"/>
+<style type="text/css">
+  .content{
+    margin-top:90px;
+  }
+</style>
+</head>
+<body>
+
+
+
+<!-- 顶部固定导航 -->
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner"  style="height:80px">
+				<div class="container">
+					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+					<a class="brand" style="color:#fff" href="">IT精英人才俱乐部</a>
+					<div class="nav-collapse pull-right">
+						<ul class="nav">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">成就能力 <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">在线培训</a>
+									</li>
+									<li>
+										<a href="#">IT精英弟子</a>
+									</li>
+									<li>
+										<a href="#">能力评测</a>
+									</li>
+									<li>
+										<a href="#">IT精英训练营</a>
+									</li>
+									<li>
+										<a href="#">IT精英梦工厂</a>
+									</li>
+								</ul>
+							</li>
+							<li class="divider-vertical"></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">实现价值<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">寻找工作</a>
+									</li>
+									<li>
+										<a href="#">项目协同</a>
+									</li>
+									<li>
+										<a href="#">好为人师</a>
+									</li>
+									<li>
+										<a href="#">训练营老师</a>
+									</li>
+									<li>
+										<a href="#">梦工厂老师</a>
+									</li>
+									<li>
+										<a href="#">评测老师</a>
+									</li>
+								</ul>
+							</li>
+							<li class="divider-vertical"></li>
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">享受快乐<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">好友管理</a>
+									</li>
+									<li>
+										<a href="#">知识管理</a>
+									</li>
+									<li>
+										<a href="#">部落管理</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<p class="navbar-text pull-right">
+							欢迎您：<a href="">何大勇</a> | <a>退出</a>
+						</p>
+						<br>
+						<ul class="nav pull-right" style="font-weight:bold;">
+							<li class="active"><a href="#">培训中心</a></li>
+							<li><a href="#">培训机构</a></li>
+							<li><a href="#">资源下载</a></li>
+							<li><a href="#">学习指南</a></li>
+							<li><a href="#">在线练习</a></li>
+							<li><a href="#">学习笔记</a></li>
+				        </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+    <div class="container content">
+         <hr/>
+         
+         <div class="row-fluid">
+            <div class="span3">
+                <div class="well sidebar-nav">
+					<ul class="nav nav-list">
+						<li class="nav-header"><strong>下载总排行</strong></li>
+						<li><a href="resourcedetail.html">[电子书] 使用Navicat管理MySQL </a></li>
+						<li><a href="resourcedetail.html">[电子书] 使用Navicat管理MySQL </a></li>
+						<li><a href="resourcedetail.html">[电子书] 使用Navicat管理MySQL </a></li>
+						<li><a href="resourcedetail.html">[电子书] 使用Navicat管理MySQL </a></li>
+						<li><a href="resourcedetail.html">[电子书] 使用Navicat管理MySQL </a></li>
+						<li><a href="resourcedetail.html">[电子书] 使用Navicat管理MySQL </a></li>
+						<li><a href="resourcedetail.html">[电子书] 使用Navicat管理MySQL </a></li>
+						<li><a href="resourcedetail.html">[电子书] 使用Navicat管理MySQL </a></li>
+						
+					</ul>
+				</div>
+				
+				
+				<div class="well sidebar-nav">
+					<ul class="nav nav-list">
+						<li class="nav-header"><strong>本周热点资源</strong></li>
+						<li><a href="#">[电子书] 使用Navicat管理MySQL </a></li>
+						<li><a href="#">[电子书] 使用Navicat管理MySQL </a></li>
+						<li><a href="#">[电子书] 使用Navicat管理MySQL </a></li>
+						<li><a href="#">[电子书] 使用Navicat管理MySQL </a></li>
+						<li><a href="#">[电子书] 使用Navicat管理MySQL </a></li>
+						<li><a href="#">[电子书] 使用Navicat管理MySQL </a></li>
+						<li><a href="#">[电子书] 使用Navicat管理MySQL </a></li>
+						<li><a href="#">[电子书] 使用Navicat管理MySQL </a></li>
+					</ul>
+				</div>
+            </div>
+            
+            <div class="span9">
+                 <div class="category">
+				        <span><strong>资源检索</strong></span><br/>
+				        
+				          <ul class="nav">
+				            <li class="active"><a href="listofsrc.html">技术分类</a></li>
+				            <li><a href="listofsrc.html">不限</a></li>
+				            <li><a href="listofsrc.html">网络技术</a></li>
+				            <li><a href="listofsrc.html">java网络开发</a></li>
+				            <li><a href="listofsrc.html">C++</a></li>
+				            <li><a href="listofsrc.html">C语言</a></li>
+				            <li><a href="listofsrc.html">安卓开发</a></li>
+				            <li><a href="listofsrc.html">游戏开发</a></li>
+				            <li><a href="listofsrc.html">C#网络开发</a></li>
+				            <br/> <br/>
+				            <li class="active"><a href="#">资源属性</a></li>
+				            <li><a href="#">不限</a></li>
+				            <li><a href="#">文档</a></li>
+				            <li><a href="#">视频</a></li>
+				          </ul>
+				     
+				    
+				  </div>
+				  
+				  <form class="well form-search">
+					  <input type="text" class="input-medium search-query">
+					  <button type="submit" class="btn">搜索</button>
+				  </form>
+				  
+				  
+				  
+				  <div class="" style="background-color:#CCCCCC; padding:20px" >
+				     <div class="srclist">
+				        <a href="resourcedetail.html">java游戏基础教程视频</a><span  style="margin-left:20px">所需积分：</span><span>3</span><br/>
+				        <span><strong>资源简介:</strong></span>
+				        <p>Java游戏俄罗斯方块源码针对零基础的学生，或者学习编程很久，但是从来没有动手作出一个东西的学生。 尚学堂老师精心设计项目开发流程，让你在60分钟内，从
+				                                      安装java开发环境，使用eclipse开发环境， 让你蓦然发现，学习编程是件多么有意思的事情。</p>
+				     </div>
+				     
+				       <div class="srclist">
+				        <a href="resourcedetail.html">java游戏基础教程视频</a><span  style="margin-left:20px">所需积分：</span><span>3</span><br/>
+				        <span><strong>资源简介:</strong></span>
+				        <p>Java游戏俄罗斯方块源码针对零基础的学生，或者学习编程很久，但是从来没有动手作出一个东西的学生。 尚学堂老师精心设计项目开发流程，让你在60分钟内，从
+				                                      安装java开发环境，使用eclipse开发环境， 让你蓦然发现，学习编程是件多么有意思的事情。</p>
+				     </div>
+				     
+				       <div class="srclist">
+				        <a href="resourcedetail.html">java游戏基础教程视频</a><span  style="margin-left:20px">所需积分：</span><span>3</span><br/>
+				        <span><strong>资源简介:</strong></span>
+				        <p>Java游戏俄罗斯方块源码针对零基础的学生，或者学习编程很久，但是从来没有动手作出一个东西的学生。 尚学堂老师精心设计项目开发流程，让你在60分钟内，从
+				                                      安装java开发环境，使用eclipse开发环境， 让你蓦然发现，学习编程是件多么有意思的事情。</p>
+				     </div>
+				     
+				       <div class="srclist">
+				        <a href="resourcedetail.html">java游戏基础教程视频</a><span  style="margin-left:20px">所需积分：</span><span>3</span><br/>
+				        <span><strong>资源简介:</strong></span>
+				        <p>Java游戏俄罗斯方块源码针对零基础的学生，或者学习编程很久，但是从来没有动手作出一个东西的学生。 尚学堂老师精心设计项目开发流程，让你在60分钟内，从
+				                                      安装java开发环境，使用eclipse开发环境， 让你蓦然发现，学习编程是件多么有意思的事情。</p>
+				     </div>
+				     
+				     
+				       <div class="srclist">
+				        <a href="resourcedetail.html">java游戏基础教程视频</a><span  style="margin-left:20px">所需积分：</span><span>3</span><br/>
+				        <span><strong>资源简介:</strong></span>
+				        <p>Java游戏俄罗斯方块源码针对零基础的学生，或者学习编程很久，但是从来没有动手作出一个东西的学生。 尚学堂老师精心设计项目开发流程，让你在60分钟内，从
+				                                      安装java开发环境，使用eclipse开发环境， 让你蓦然发现，学习编程是件多么有意思的事情。</p>
+				     </div>
+				     
+				       <div class="srclist">
+				        <a href="resourcedetail.html">java游戏基础教程视频</a><span  style="margin-left:20px">所需积分：</span><span>3</span><br/>
+				        <span><strong>资源简介:</strong></span>
+				        <p>Java游戏俄罗斯方块源码针对零基础的学生，或者学习编程很久，但是从来没有动手作出一个东西的学生。 尚学堂老师精心设计项目开发流程，让你在60分钟内，从
+				                                      安装java开发环境，使用eclipse开发环境， 让你蓦然发现，学习编程是件多么有意思的事情。</p>
+				     </div>
+
+				  </div>
+				  
+				   <div class="pagination">
+			        <ul>
+			          <li class="disabled"><a href="#">«</a></li>
+			          <li class="active"><a href="#">1</a></li>
+			          <li><a href="#">2</a></li>
+			          <li><a href="#">3</a></li>
+			          <li><a href="#">4</a></li>
+			          <li><a href="#">»</a></li>
+			        </ul>
+			      </div>
+            </div>
+            
+            
+            
+         </div>
+    </div>
+    
+    <br/><br/>
+    <br/><br/>
+    <br/><br/>
+     <br/><br/>
+    <br/><br/>
+    <br/><br/>
+     <br/><br/>
+    <br/><br/>
+    <br/><br/>
+     <br/><br/>
+    <br/><br/>
+    <br/><br/>
+</body>
+</html>

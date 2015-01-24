@@ -1,0 +1,171 @@
+
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>上传资料</title>
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="../css/index.css" />
+<link rel="stylesheet" type="text/css" href="../css/rebluebootstrap.css" />
+<style type="text/css">
+.content {
+	margin-top: 90px;
+}
+</style>
+</head>
+
+<body>
+	<!-- 顶部固定导航 -->
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner" style="height: 80px">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse"
+					data-target=".nav-collapse"> <span class="icon-bar"></span> <span
+					class="icon-bar"></span> <span class="icon-bar"></span>
+				</a> <a class="brand" style="color: #fff" href="">IT精英人才俱乐部</a>
+				<div class="nav-collapse pull-right">
+					<ul class="nav">
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">成就能力 <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">在线培训</a></li>
+								<li><a href="#">IT精英弟子</a></li>
+								<li><a href="#">能力评测</a></li>
+								<li><a href="#">IT精英训练营</a></li>
+								<li><a href="#">IT精英梦工厂</a></li>
+							</ul></li>
+						<li class="divider-vertical"></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">实现价值<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">寻找工作</a></li>
+								<li><a href="#">项目协同</a></li>
+								<li><a href="#">好为人师</a></li>
+								<li><a href="#">训练营老师</a></li>
+								<li><a href="#">梦工厂老师</a></li>
+								<li><a href="#">评测老师</a></li>
+							</ul></li>
+						<li class="divider-vertical"></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">享受快乐<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">好友管理</a></li>
+								<li><a href="#">知识管理</a></li>
+								<li><a href="#">部落管理</a></li>
+							</ul></li>
+					</ul>
+					<p class="navbar-text pull-right">
+						欢迎您：<a href="">何大勇</a> | <a>退出</a>
+					</p>
+					<br>
+					<ul class="nav pull-right" style="font-weight: bold;">
+						<li><a href="index.html">首页</a></li>
+						<li><a href="appstudent.html">学生管理</a></li>
+						<li><a href="#">老师管理</a></li>
+						<li class="active"><a href="sourcemanage">资料管理</a></li>
+						<li><a href="#">公告管理</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- end of top -->
+	<!-- Start of Content -->
+	<div class="container" style="margin-top: 90px">
+		<div class="row span12">
+			<a href="#"><i class="icon-home"></i>></a><a href="#">培训管理中心</a>><a
+				href="#">资料管理</a>
+		</div>
+		<hr>
+		<div class="row-fluid">
+			<div class="span8">
+				<div class="well">
+					<div class="row-fluid">
+						<table style="width: 100%">
+							<tr>
+								<td style="width: 70%">
+									<div style="width: 80px; margin-right: 0px">
+										<a href="#"><img src="../img/上传资料.png" width="50px"
+											height="50px"></a> <br> &nbsp;&nbsp;<b>上传资料</b></a>
+									</div>
+								</td>
+								<td style="width: 10%">
+									<div style="width: 80px">
+										<a href="#"><img src="../img/发布公告.png" width="40px"
+											height="40px"></a> <br> &nbsp;<a href="#">添加公告</a>
+									</div>
+								</td>
+
+								<td style="width: 10%">
+									<div style="width: 80px">
+										<a href="publishtest.html"><img src="../img/发布考核.png" width="40px"
+											height="40px"></a> <br> &nbsp;<a href="publishtest.html">发布考核</a>
+									</div>
+								</td>
+								<td style="width: 10%">
+									<div style="width: 80px">
+										<a href="appstudent.html"><img src="../img/审核学生.png" width="40px"
+											height="40px"></a> <br> &nbsp;<a href="appstudent.html">审核学生</a>
+									</div>
+								</td>
+
+
+							</tr>
+
+						</table>
+
+						<form class="well form-search">
+							<label>&nbsp;&nbsp;&nbsp;&nbsp;资源名：</label><input type="text"
+								class="well form-inline"><br /> <br /> <label>资源类型：</label><select
+								class="span4">
+
+								<option>视频</option>
+								<option>文档</option>
+							</select><br /> <br /> <label>资&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;源：</label><input type="file" id="fileInput" class="input-file"><br /> <br />
+							<label>归属方向：</label><input type="text" class="well form-inline"><br />
+							<br />
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<button type="submit" class="btn btn-primary ">&nbsp;&nbsp;&nbsp;&nbsp;上传&nbsp;&nbsp;&nbsp;&nbsp;</button>
+							&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<button type="submit" class="btn btn-primary ">&nbsp;&nbsp;&nbsp;&nbsp;返回&nbsp;&nbsp;&nbsp;&nbsp;</button>
+						</form>
+					</div>
+
+				</div>
+
+			</div>
+
+			<div class="span4">
+				<div class="well">
+					<table>
+						<tr>
+							<td>上次登录时间：</td>
+							<td>2012年11月4日17:45:01</td>
+						</tr>
+					</table>
+
+				</div>
+				<div class="well">
+					<div align="center">
+						<h5>资料管理</h5>
+						<ul class="nav">
+							<li class="active"><a href="#">上传资料</a></li>
+							<li><a href="appstudent.html">未审核资料</a></li>
+							<li><a href="index.html">查看所有资料</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<br />高迈致远信息技术有限公司<br /> Copyright @2002-2012 GM123.cn Corporation,
+		All Rights Reserved
+	</div>
+
+
+	<!-- js -->
+	<script src="../js/jquery.js"></script>
+	<script src="../js/bootstrap.js"></script>
+</body>
+</html>

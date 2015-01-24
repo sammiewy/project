@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2012-11-30T07:27:28.979033Z"
+   url="https://192.168.2.106/svn/trainHtml2/trunk/trainHtml4/WebContent/ui"
+   last-author="jinpin"
+   kind="dir"
+   uuid="70e37eeb-7869-6547-b852-c591405a270e"
+   repos="https://192.168.2.106/svn/trainHtml2"
+   revision="11"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.datepicker.js"
+   text-time="2012-11-30T07:42:40.187500Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="0eb166c9a3ce19e9efced8e4f7bd4a5c"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:40.062500Z"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.accordion.js"
+   text-time="2012-11-30T07:42:40.203125Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="fcda986f6dffb02f6a614f878fc15df3"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:40.125000Z"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.widget.js"
+   text-time="2012-11-30T07:42:40.234375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="252a8c1605664644955a89a55c02fc81"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:40.156250Z"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.core.js"
+   text-time="2012-11-30T07:42:40.250000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="a92413e27638e34943ccbb2a47713102"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:40.171875Z"/>
+</wc-entries>

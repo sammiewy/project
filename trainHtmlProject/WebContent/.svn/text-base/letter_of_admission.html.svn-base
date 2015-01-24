@@ -1,0 +1,130 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title></title>
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+<link rel="stylesheet" href="css/rebluebootstrap.css" type="text/css"/>
+</head>
+<body>
+		<!-- 顶部固定导航 -->
+		<div class="navbar navbar-fixed-top">
+			<div class="navbar-inner"  style="height:80px">
+				<div class="container">
+					<a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse"> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </a>
+					<a class="brand" style="color:#fff" href="">IT精英人才俱乐部</a>
+					<div class="nav-collapse pull-right">
+						<ul class="nav">
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">成就能力 <b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">在线培训</a>
+									</li>
+									<li>
+										<a href="#">IT精英弟子</a>
+									</li>
+									<li>
+										<a href="#">能力评测</a>
+									</li>
+									<li>
+										<a href="#">IT精英训练营</a>
+									</li>
+									<li>
+										<a href="#">IT精英梦工厂</a>
+									</li>
+								</ul>
+							</li>
+							<!-- <li class="divider-vertical"></li> -->
+							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">实现价值<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">寻找工作</a>
+									</li>
+									<li>
+										<a href="#">项目协同</a>
+									</li>
+									<li>
+										<a href="#">好为人师</a>
+									</li>
+									<li>
+										<a href="#">训练营老师</a>
+									</li>
+									<li>
+										<a href="#">梦工厂老师</a>
+									</li>
+									<li>
+										<a href="#">评测老师</a>
+									</li>
+								</ul>
+							</li>
+							<!-- <li class="divider-vertical"></li>
+ -->							<li class="dropdown">
+								<a href="#" class="dropdown-toggle" data-toggle="dropdown">享受快乐<b class="caret"></b></a>
+								<ul class="dropdown-menu">
+									<li>
+										<a href="#">好友管理</a>
+									</li>
+									<li>
+										<a href="#">知识管理</a>
+									</li>
+									<li>
+										<a href="#">部落管理</a>
+									</li>
+								</ul>
+							</li>
+						</ul>
+						<p class="navbar-text pull-right">
+							<a href="T_exam_tip.html">通知</a> &nbsp; 欢迎您：<a href="">何大勇</a> | <a>退出</a>
+						</p>
+						<br>
+						<ul class="nav pull-right" style="font-weight:bold;">
+							<li class="active"><a href="index.html">培训中心</a></li>
+							<li><a href="">培训机构</a></li>
+							<li><a href="#">资源下载</a></li>
+							<li><a href="#">学习指南</a></li>
+							<li><a href="#">在线练习</a></li>
+							<li><a href="course_show.html">全部课程</a></li>
+				        </ul>
+					</div>
+				</div>
+			</div>
+		</div>
+      
+    <div class="container content">
+		<div class="row span12">
+			<a href="#"><i class="icon-home"></i>></a><a href="#">培训中心</a>><a href="#">录取通知书</a>
+		</div>
+		<hr>
+            <div class="alert alert-info">
+                <strong>您好，请认真读下面的通知内容，其中包括您的分班情况，和我们给您作的学习安排，祝您每天都有收获！</strong>               
+            </div>                     
+	            <div  class="well row" id="admissionContent">
+		            <legend id="admissionContentLegend"><strong>录取通知书</strong></legend>
+		            <div class="span7 offset2">
+		            <p id="welcomeWords">亲爱的MySoftLife平台用户：</p>
+		            <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;何大勇</strong>，您好！根据您在2012年11月12日提交的考核申请，和2012年11月25日在MySoftLife
+		            平台评测部所做的评测结果，我们决定录取您为本机构<strong>2012012</strong>班的学员！<br><br>
+		            以下是您所在班级的情况：<br>
+		            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -<br>
+		            学习方向：<a href=""><strong>javaWeb开发</strong></a><br>
+		            时&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;间：<strong>2012年12月1日- -2012年12月30日</strong><br>
+		            考核日期：<strong>2013年1月5日</strong><br>
+		            班级导师：卢 灿<br>
+		            - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -<br>
+		            您可以点击<a href="tstudent.html">进入我的T阶段主页</a><br>
+	            </div>
+	            <div class="row" id="endWords">
+		            <p class="offset7"  id="welcomeWords"><a href="">贵州卓越软件</a></p>
+		            <p class="offset7"  id="welcomeWords">2012年11月20日</p>	
+		        </div>	                                	            
+            </div> 
+    </div>    
+    <legend class="endline"></legend>    
+    <div id="footer">
+                       <br/>高迈致远信息技术有限公司<br/>
+       Copyright @2002-2012 GM123.cn Corporation, All Rights Reserved       
+    </div> 		
+</body>
+</html>

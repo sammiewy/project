@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2012-11-30T07:27:28.979033Z"
+   url="https://192.168.2.106/svn/trainHtml2/trunk/trainHtml4/.settings"
+   last-author="jinpin"
+   kind="dir"
+   uuid="70e37eeb-7869-6547-b852-c591405a270e"
+   repos="https://192.168.2.106/svn/trainHtml2"
+   revision="3"/>
+<entry
+   committed-rev="3"
+   name="org.eclipse.wst.jsdt.ui.superType.name"
+   text-time="2012-11-30T07:42:40.625000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="c89686a387d2b12b3c729ce35a0bcb5b"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:40.578125Z"/>
+<entry
+   committed-rev="3"
+   name="org.eclipse.wst.jsdt.ui.superType.container"
+   text-time="2012-11-30T07:42:40.640625Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="b27d1cf62dde4473bab7c433317bb0ce"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:40.578125Z"/>
+<entry
+   committed-rev="3"
+   name="org.eclipse.core.resources.prefs"
+   text-time="2012-11-30T07:42:40.656250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="0e6c26d7ffc49d4448ad10aeb5dff2b8"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:40.593750Z"/>
+<entry
+   committed-rev="3"
+   name="org.eclipse.wst.common.project.facet.core.xml"
+   text-time="2012-11-30T07:42:40.656250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="258d5d9e702ce105204c98fd5ae8670c"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:40.593750Z"/>
+<entry
+   committed-rev="3"
+   name=".jsdtscope"
+   text-time="2012-11-30T07:42:40.671875Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="2dfb4ce067f1529d1934162e0152d9b8"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:40.609375Z"/>
+<entry
+   committed-rev="3"
+   name="org.eclipse.wst.common.component"
+   text-time="2012-11-30T07:42:40.687500Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="7e144d9fbe54fce71bb7ed507e4b6dee"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:40.609375Z"/>
+</wc-entries>

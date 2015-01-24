@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2012-11-30T07:27:28.979033Z"
+   url="https://192.168.2.106/svn/trainHtml2/trunk/trainHtml4/WebContent/default"
+   last-author="jinpin"
+   kind="dir"
+   uuid="70e37eeb-7869-6547-b852-c591405a270e"
+   repos="https://192.168.2.106/svn/trainHtml2"
+   revision="11"/>
+<entry
+   committed-rev="3"
+   name="background.png"
+   text-time="2012-11-30T07:42:10.625000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="a9153e958562397dc4f981c5cedc2a65"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:10.593750Z"/>
+<entry
+   committed-rev="3"
+   name="default.png"
+   text-time="2012-11-30T07:42:10.640625Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="4a1cec120d21d39048974839029b4789"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:10.593750Z"/>
+<entry
+   committed-rev="3"
+   name="default.css"
+   text-time="2012-11-30T07:42:10.656250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="331198da87a05e382f9a56286569259d"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:10.609375Z"/>
+</wc-entries>

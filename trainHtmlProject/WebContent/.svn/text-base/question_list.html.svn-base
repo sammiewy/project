@@ -1,0 +1,1107 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>问题列表</title>
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="css/rebluebootstrap.css" />
+<link rel="stylesheet" type="text/css" href="css/index.css" />
+</head>
+
+<body>
+	<!-- 顶部固定导航 -->
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner" style="height: 80px">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse"
+					data-target=".nav-collapse"> <span class="icon-bar"></span> <span
+					class="icon-bar"></span> <span class="icon-bar"></span>
+				</a> <a class="brand" style="color: #fff" href="">IT精英人才俱乐部</a>
+				<div class="nav-collapse pull-right">
+					<ul class="nav">
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">成就能力 <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">在线培训</a></li>
+								<li><a href="#">IT精英弟子</a></li>
+								<li><a href="#">能力评测</a></li>
+								<li><a href="#">IT精英训练营</a></li>
+								<li><a href="#">IT精英梦工厂</a></li>
+							</ul></li>
+						<li class="divider-vertical"></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">实现价值<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">寻找工作</a></li>
+								<li><a href="#">项目协同</a></li>
+								<li><a href="#">好为人师</a></li>
+								<li><a href="#">训练营老师</a></li>
+								<li><a href="#">梦工厂老师</a></li>
+								<li><a href="#">评测老师</a></li>
+							</ul></li>
+						<li class="divider-vertical"></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">享受快乐<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">好友管理</a></li>
+								<li><a href="#">知识管理</a></li>
+								<li><a href="#">部落管理</a></li>
+							</ul></li>
+					</ul>
+					<p class="navbar-text pull-right">
+						欢迎您：<a href="">何大勇</a> | <a>退出</a>
+					</p>
+					<br>
+					<ul class="nav pull-right" style="font-weight: bold;">
+						<li class="active"><a href="#">培训中心</a></li>
+						<li class=""><a href="#">培训机构</a></li>
+						<li class=""><a href="#">资源下载</a></li>
+						<li class=""><a href="#">学习指南</a></li>
+						<li class=""><a href="#">在线练习</a></li>
+						<li class=""><a href="#">学习笔记</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- ************************************************ -->
+	<!-- 主体内容 -->
+	<div class="container" style="margin-top: 90px;">
+		<div class="row-fluid">
+			<a href="#"><i class="icon-home"></i></a><a href="#">培训中心</a>&gt;<a
+				href="#">E阶段问题页面</a>
+		</div>
+		<hr>
+		<!-- ***********************问题模板************************ -->
+		<div class="row-fluid">
+			<div class="row-fluid alert-success ">
+			<form class="form-inline">
+				<fieldset class="row">
+					<div class="span12  ">
+					   <div class="row">
+						<div class="span12">
+							<div class="control-group ">
+								<h5>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="有问题吗？" src="img/question.jpg">请把你的问题告诉大家</h5>
+								&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+								<textarea class="input-xlarge span11 offset1" id="input01"
+									rows="4"></textarea>
+							</div>
+							</div>
+						<div class="row span12">
+							<div class="control-group form-inline" >
+							    <div class="span1"></div>
+							 	<a data-toggle="modal" id="my_ability_cla1" class="btn  btn-small">设置技能分类</a> 
+								<a class="control-label offset4">问题悬赏积分:&nbsp;&nbsp; </a>
+								<select class="span2">
+									<option selected="selected">0</option>
+									<option>5</option>
+									<option>10</option>
+									<option>20</option>
+									<option>50</option>
+									<option>100</option>
+									<option>200</option>
+								</select>
+								<a><button type="submit" class="btn btn-success btn-small offset1"data-dismiss="modal">提交问题</button></a>
+								
+							</div>
+							</div> 
+						</div>
+					</div>
+				</fieldset>
+			</form>
+		</div>
+		<!-- *************技能分类页面*************** -->
+	<div id="my_ability_cla" class="modal hide fade">
+		<div class="modal-header">
+			<a class="close" data-dismiss="modal">&times;</a>
+			<h5>设置技能分类</h5>
+		</div>
+		<div class="modal-body">
+			<div class="row-fluid">
+				<div class="span12">
+					<div class="alert-success">
+						<div class="tabbable tabs">
+							<ul class="nav nav-tabs">
+								<li class="active">&nbsp;&nbsp;&nbsp;&nbsp;</li>
+								<li><a href="#1" data-toggle="tab">编程语言</a></li>
+								<li><a href="#2" data-toggle="tab">数据库</a></li>
+								<li><a href="#3" data-toggle="tab">操作系统</a></li>
+								<li><a href="#4" data-toggle="tab">网页设计</a></li>
+							</ul>
+						</div>
+					</div>
+					<div class="tab-content">
+						<div class="tab-pane active" id="1">
+							<div class="span12">
+								<div class="alert-success">
+									<ul class="active">
+										<li><a href="#">java</a></li>
+										<li><a href="#">C/C++</a></li>
+										<li><a href="#">Delphi</a></li>
+										<li><a href="#">BASIC</a></li>
+										<li><a href="#">javascript</a></li>
+										<li><a href="#">&nbsp;</a></li>
+										<li><a href="#">&nbsp; </a></li>
+										<li><a href="#">&nbsp; </a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="tab-pane " id="2">
+							<div class="span12">
+								<div class="alert-success">
+									<ul>
+										<li><a href="#">Oracle</a></li>
+										<li><a href="#">MySQL</a></li>
+										<li><a href="#">Access</a></li>
+										<li><a href="#">SQLServer</a></li>
+										<li><a href="#">DB2</a></li>
+										<li><a href="#">&nbsp;</a></li>
+										<li><a href="#">&nbsp; </a></li>
+										<li><a href="#">&nbsp; </a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="tab-pane " id="3">
+							<div class="span12">
+								<div class="alert-success">
+									<ul class="">
+										<li><a href="#">Linux</a></li>
+										<li><a href="#">Unix</a></li>
+										<li><a href="#">windows</a></li>
+										<li><a href="#">&nbsp;</a></li>
+										<li><a href="#">&nbsp; </a></li>
+										<li><a href="#">&nbsp; </a></li>
+										<li><a href="#">&nbsp;</a></li>
+										<li><a href="#">&nbsp; </a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="tab-pane " id="4">
+							<div class="span12">
+								<div class="alert-success">
+									<ul class="">
+										<li><a href="#">html</a></li>
+										<li><a href="#">div+css</a></li>
+										<li><a href="#">jsp</a></li>
+										<li><a href="#">php</a></li>
+										<li><a href="#">servlet</a></li>
+										<li><a href="#">spring</a></li>
+										<li><a href="#">hibernate</a></li>
+										<li><a href="#">struts</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- end content -->
+				</div>
+				<!-- end alert -->
+			</div>
+			<!-- end span8 -->
+
+		</div>
+		<!-- end modal-body -->
+
+		<div class="modal-footer">
+			<a href="#" class="btn" data-dismiss="modal">确定</a>
+		</div>
+	</div>
+		</div>
+		<!-- ************************** -->
+		<div class="row-fluid">
+			<div class="span12">
+				<div class="alert-success">
+					<table
+						class="table table-striped table-bordered table-condensed alert-success">
+						<tr>
+							<td colspan="4"><strong>技能点分类</strong></td>
+						</tr>
+						<tr>
+							<td><a href="">java程序设计</a>(3456)</td>
+							<td><a href="">javascript</a>(2319)</td>
+							<td><a href="">Hibernate</a>(1229)</td>
+							<td><a href="">struts</a>(2345)</td>
+						</tr>
+						<tr>
+							<td><a href="">Servlet</a>(1211)</td>
+							<td><a href="">J2EE</a>(3254)</td>
+							<td><a href="">JavaBean</a>(889)</td>
+							<td><a href="">Spring</a>(221)</td>
+						</tr>
+						<tr>
+							<td><a href=""> AJAX</a>(121)</td>
+							<td><a href=""> EJB</a>(99)</td>
+							<td><a href=""> J2ME</a>(454)</td>
+							<td><a href=""> Jquery</a>(134)</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+
+
+		</div>
+		<div class="row-fluid">
+			<div class="span12">
+				<div class="">
+					<div class="tabbable">
+						<ul class="nav nav-tabs">
+							<li class="active">&nbsp;&nbsp;&nbsp;&nbsp;</li>
+							<li><a href="#1" data-toggle="tab">未回答的问题</a></li>
+							<li><a href="#2" data-toggle="tab">已回答的问题</a></li>
+							<li><a href="#3" data-toggle="tab">最新的问题</a></li>
+							<li><a href="#4" data-toggle="tab">最热的问题</a></li>
+							<li><a href="#5" data-toggle="tab">全部问题</a></li>
+						</ul>
+						<div class="tab-content">
+							<div class="tab-pane active" id="1">
+								<table
+									class="table table-striped alert-success table-condensed">
+									<tr style="rowspan: 10Px">
+										<td><strong>标题</strong></td>
+										<td><strong>提问者</strong></td>
+										<td><strong>回答数</strong></td>
+										<td><strong>提问时间</strong></td>
+									</tr>
+
+									<tr>
+										<td><a id="answer" data-toggle="modal">[java]java登录名和用户密码怎么验证？</a></td>
+										<td>luotinggao</td>
+										<td>10</td>
+										<td>2秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[javascript]javascript怎么得到文档的对象？</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>10秒钟前</td>
+									</tr>
+
+									<tr>
+										<td><a href="">[java]怎样才能学好java？应从什么书开始学习？</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>14秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[java]java中为什么必须先继承后实现？顺序颠转为什么不行？</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>15秒钟前</td>
+									</tr>
+
+									<tr>
+										<td><a href=""> [java]java编程用什么编译器最好</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>21秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href=""> [java]java编程用什么编译器最好</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>21秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[java] java编程用什么编译器最好</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>21秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[java] java编程用什么编译器最好</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>21秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href=""> [java]java编程用什么编译器最好</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>21秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[java] java编程用什么编译器最好</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>21秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href=""> [java]java编程用什么编译器最好</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>21秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[java] java编程用什么编译器最好</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>21秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[java] java编程用什么编译器最好</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>21秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[java] java编程用什么编译器最好</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>21秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href=""> [java]java编程用什么编译器最好</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>21秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href=""> [java]java编程用什么编译器最好</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>21秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href=""> [java]java编程用什么编译器最好</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>21秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href=""> [java]java编程用什么编译器最好</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>21秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[java] java编程用什么编译器最好</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>21秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href=""> [java]java编程用什么编译器最好</a></td>
+										<td>luotinggao</td>
+										<td>0</td>
+										<td>21秒钟前</td>
+									</tr>
+								</table>
+								<div class="pagination offset3">
+									<ul>
+										<li><a href="#">前一页</a></li>
+										<li class="active"><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+										<li><a href="#">5</a></li>
+										<li><a href="#">6</a></li>
+										<li><a href="#">7</a></li>
+										<li><a href="#">8</a></li>
+										<li><a href="#">9</a></li>
+										<li><a href="#">10</a></li>
+										<li><a href="#">后一页</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="tab-pane" id="2">
+								<table
+									class="table table-striped alert-success table-condensed">
+									<tr>
+										<td><strong>标题</strong></td>
+										<td><strong>提问者</strong></td>
+										<td><strong>回答数</strong></td>
+										<td><strong>提问时间</strong></td>
+									</tr>
+
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>2秒钟前</td>
+									</tr>
+
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>12秒钟前</td>
+									</tr>
+
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>21秒钟前</td>
+									</tr>
+
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Oracle]Oracle怎么设置授权？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+								</table>
+								<div class="pagination offset3">
+									<ul>
+										<li><a href="#">前一页</a></li>
+										<li class="active"><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+										<li><a href="#">5</a></li>
+										<li><a href="#">6</a></li>
+										<li><a href="#">7</a></li>
+										<li><a href="#">8</a></li>
+										<li><a href="#">9</a></li>
+										<li><a href="#">10</a></li>
+										<li><a href="#">后一页</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="tab-pane" id="3">
+								<table
+									class="table table-striped alert-success table-condensed">
+									<tr>
+										<td><strong>标题</strong></td>
+										<td><strong>提问者</strong></td>
+										<td><strong>回答数</strong></td>
+										<td><strong>提问时间</strong></td>
+									</tr>
+
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+								</table>
+								<div class="pagination offset3">
+									<ul>
+										<li><a href="#">前一页</a></li>
+										<li class="active"><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+										<li><a href="#">5</a></li>
+										<li><a href="#">6</a></li>
+										<li><a href="#">7</a></li>
+										<li><a href="#">8</a></li>
+										<li><a href="#">9</a></li>
+										<li><a href="#">10</a></li>
+										<li><a href="#">后一页</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="tab-pane" id="4">
+								<table
+									class="table table-striped alert-success table-condensed">
+									<tr>
+										<td><strong>标题</strong></td>
+										<td><strong>提问者</strong></td>
+										<td><strong>回答数</strong></td>
+										<td><strong>提问时间</strong></td>
+									</tr>
+
+									<tr>
+										<td><a href="">[java]java程序员英语差很困难，尤其是阅读api等文档...?</a></td>
+										<td>luotinggao</td>
+										<td>10</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[java
+												Web]学习java、js、css、jquery的朋友们加...?</a></td>
+										<td>gantian</td>
+										<td>30</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[java Web]学习java、js、css、jquery的朋友们加...
+												?</a></td>
+										<td>gantian</td>
+										<td>20</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[java Web]java按钮背景图片上文字的问题 ?</a></td>
+										<td>yangdichang</td>
+										<td>50</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[java]JAVA如何操作EXCEL?</a></td>
+										<td>luotinggao</td>
+										<td>40</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置?</a></td>
+										<td>gantian</td>
+										<td>40</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>50</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>60</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>70</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>70</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>70</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>70</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>70</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>70</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>70</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>70</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>70</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>70</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>70</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>70</td>
+										<td>29秒钟前</td>
+									</tr>
+								</table>
+								<div class="pagination offset3">
+									<ul>
+										<li><a href="#">前一页</a></li>
+										<li class="active"><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+										<li><a href="#">5</a></li>
+										<li><a href="#">6</a></li>
+										<li><a href="#">7</a></li>
+										<li><a href="#">8</a></li>
+										<li><a href="#">9</a></li>
+										<li><a href="#">10</a></li>
+										<li><a href="#">后一页</a></li>
+									</ul>
+								</div>
+							</div>
+							<div class="tab-pane" id="5">
+								<table
+									class="table table-striped alert-success table-condensed">
+									<tr>
+										<td><strong>标题</strong></td>
+										<td><strong>提问者</strong></td>
+										<td><strong>回答数</strong></td>
+										<td><strong>提问时间</strong></td>
+									</tr>
+
+									<tr>
+										<td><a href="">[java]我学习java已 毕业，如何让我走向开发工程师的目...</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Android]android编程 百度地图api 当中公交换乘 ...
+										</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[java] 求java程序设计足球联赛积分管理系统？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[java]急求：java程序设计教程(第六版)课后习题答案 ？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+									<tr>
+										<td><a href="">[Hibernate]Hibernate怎么配置？</a></td>
+										<td>gantian</td>
+										<td>0</td>
+										<td>29秒钟前</td>
+									</tr>
+								</table>
+								<div class="pagination offset3">
+									<ul>
+										<li><a href="#">前一页</a></li>
+										<li class="active"><a href="#">1</a></li>
+										<li><a href="#">2</a></li>
+										<li><a href="#">3</a></li>
+										<li><a href="#">4</a></li>
+										<li><a href="#">5</a></li>
+										<li><a href="#">6</a></li>
+										<li><a href="#">7</a></li>
+										<li><a href="#">8</a></li>
+										<li><a href="#">9</a></li>
+										<li><a href="#">10</a></li>
+										<li><a href="#">后一页</a></li>
+									</ul>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	 
+	<!-- ******************************回答问题页面开始********************************************************* -->
+	<div class="modal hide fade" id="my_answer">
+		<div class="control-group  alert alert-success ">
+			<div class="row-fluid">
+				<div class="span12">
+
+					<div class="row">
+						<div class="span10">
+							<h5>&nbsp;&nbsp;&nbsp;&nbsp;<img alt="有问题吗？" src="img/question.jpg">java登录名和用户密码怎么验证？ </h5>
+						</div>
+						<div class="span2">
+							<i class="btn btn-info btn-small pull-right">同问</i>
+						</div>
+					</div>
+					<div class="row">
+						<div class="span8">
+							&nbsp;&nbsp;&nbsp;&nbsp;<i class="navbar-text">提问者：<img
+								src="img/user.png"><a href="">luotinggao</a> | <a>浏览次数：3次</a></i>
+						</div>
+						<div class="span4">
+							<i class="navbar-text pull-right">3分钟以前</i>
+						</div>
+						<div></div>
+					</div>
+					<div class="row-fluid">
+					<div class="control">
+						<textarea class="input-xlarge span12 "  name="content" rows="10"></textarea>
+					</div>
+					</div>
+					<div class="row-fluid">
+						<div class="span10 form-inline">
+							<a class="navbar-text">参考资料:&nbsp;&nbsp;</a> <input type="text"
+								class="input-xlarge" id="input01">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+							<p class="btn btn-success btn-small " data-dismiss="modal">提交答案</p>
+							<label class="checkbox "> <input type="checkbox"><strong>匿名:</strong>&nbsp;&nbsp;
+								匿名回答不得积分
+							</label>
+						</div>
+						<div class="span2"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+    <div id="footer">
+                       <br/>高迈致远信息技术有限公司<br/>
+       Copyright @2002-2012 GM123.cn Corporation, All Rights Reserved       
+    </div>
+	<!-- ************************************************ -->
+	<!-- js -->
+	<!-- datepicker Start -->
+	<script src="../ui/jquery.ui.core.js"></script>
+	<script src="../ui/jquery.ui.widget.js"></script>
+	<script src="../ui/jquery.ui.datepicker.js"></script>
+	<!-- datepicker End -->
+	<script src="../js/jquery-1.8.2.js"></script>
+    <script src="../js/kindeditor-min.js"></script>
+    <script src="../lang/zh_CN.js"></script>
+	<script src=" js/jquery.js"></script>
+	<script src=" js/google-code-prettify/prettify.js"></script>
+	<script src=" js/bootstrap-transition.js"></script>
+	<script src=" js/bootstrap.js"></script>
+	<script src=" js/bootstrap-alert.js"></script>
+	<script src=" js/bootstrap-modal.js"></script>
+	<script src=" js/bootstrap-dropdown.js"></script>
+	<script src=" js/bootstrap-scrollspy.js"></script>
+	<script src=" js/bootstrap-tab.js"></script>
+	<script src=" js/bootstrap-tooltip.js"></script>
+	<script src=" js/bootstrap-popover.js"></script>
+	<script src=" js/bootstrap-button.js"></script>
+	<script src=" js/bootstrap-collapse.js"></script>
+	<script src=" js/bootstrap-carousel.js"></script>
+	<script src=" js/bootstrap-typeahead.js"></script>
+	<script src=" js/application.js"></script>
+	<script src=" js/customize.js"></script>
+	<script type="text/javascript">
+	 $(function(){
+    		$('#my_question1').click(function(){
+    			$('#my_question').modal('toggle');
+    		});
+    		$('#my_ability_cla1').click(function(){
+    			$('#my_ability_cla').modal('toggle');
+    		});
+    		$('#answer').click(function(){
+    			$('#my_answer').modal('toggle');
+    		});
+    		 
+    	});
+ </script>
+</body>
+</html>

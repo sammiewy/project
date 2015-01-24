@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>T管理中心-首页</title>
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="../css/index.css" />
+<link rel="stylesheet" type="text/css" href="../css/rebluebootstrap.css" />
+<link rel="stylesheet" type="text/css" href="../css/docs.css" />
+<link rel="stylesheet" href="../themes/base/jquery.ui.all.css">
+<script src="../js/jquery-1.8.2.js"></script>
+<script src="../js/bootstrap-transition.js"></script>
+<script>
+	$(function() {
+		$("#datepicker").datepicker();
+	});
+</script>
+</head>
+
+<body data-spy="scroll" data-target=".subnav" data-offset="50">
+	<!-- 顶部固定导航 -->
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner" style="height: 80px">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse"
+					data-target=".nav-collapse"> <span class="icon-bar"></span> <span
+					class="icon-bar"></span> <span class="icon-bar"></span>
+				</a> <a class="brand" style="color: #fff;" href="">IT精英人才俱乐部</a>
+				<div class="nav-collapse pull-right">
+					<ul class="nav">
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">成就能力 <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">在线培训</a></li>
+								<li><a href="#">IT精英弟子</a></li>
+								<li><a href="#">能力评测</a></li>
+								<li><a href="#">IT精英训练营</a></li>
+								<li><a href="#">IT精英梦工厂</a></li>
+							</ul></li>
+						<li class="divider-vertical"></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">实现价值<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">寻找工作</a></li>
+								<li><a href="#">项目协同</a></li>
+								<li><a href="#">好为人师</a></li>
+								<li><a href="#">训练营老师</a></li>
+								<li><a href="#">梦工厂老师</a></li>
+								<li><a href="#">评测老师</a></li>
+							</ul></li>
+						<li class="divider-vertical"></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">享受快乐<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">好友管理</a></li>
+								<li><a href="#">知识管理</a></li>
+								<li><a href="#">部落管理</a></li>
+							</ul></li>
+					</ul>
+					<p class="navbar-text pull-right">
+						欢迎您：<a href="">何大勇</a> | <a>退出</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end of top -->
+
+	<!-- Start of Content -->
+	<div class="container" style="margin-top: 90px">
+		<div class="row span12">
+			<a href="#"><i class="icon-home"></i>></a><a href="#">培训管理中心</a>><a
+				href="#">课程管理</a>
+		</div>
+		<hr />
+		<div class="row-fluid">
+			<div class="span8">
+				<div class="subnav">
+					<ul class="nav nav-pills">
+						<li><a href="#setupclass">建立课程</a></li>
+						<li><a href="#setlearningsteps">建立学习步骤</a></li>
+						<li><a href="#setupgrade">建立班级</a></li>
+						<li><a href="#test3">选择老师</a></li>
+						<li><a href="#test4">发布班级</a></li>
+					</ul>
+				</div>
+				<div class="row-fluid" style="margin-bottom: -100px">
+					&nbsp;<img alt="有你有我" src="../img/9999.png">
+				</div>
+
+				<section id="setupclass">
+
+					<div class="well">
+						<form class="form-horizontal">
+							<fieldset>
+								<div class="alert alert-info">
+									<strong><i class="icon-cog"></i>建立课程</strong>
+								</div>
+								<div class="control-group">
+									<label for="select01" class="control-label">课程类别：</label>
+									<div class="controls">
+										<select id="select01">
+											<option>请选择</option>
+											<option>java</option>
+											<option>struts</option>
+											<option>javascript</option>
+											<option>ssh</option>
+										</select>
+									</div>
+								</div>
+								<div class="control-group">
+									<label for="input01" class="control-label">课程名称：</label>
+									<div class="controls">
+										<input type="text" id="input01" class="input-xlarge">
+										<p class="help-block">*必填</p>
+									</div>
+								</div>
+								<div class="control-group">
+									<label for="input02" class="control-label">学习步骤数：</label>
+									<div class="controls">
+										<input type="text" id="input02" class="input-xlarge">
+										<p class="help-block">*该选项对应以下学习步骤的设置，每一个学习步骤会有一个详细的步骤设置，只有所有的学习步骤都设置完善，才会允许在该课程下开班发布！</p>
+									</div>
+								</div>
+								<div class="control-group">
+									<label for="input03" class="control-label">开课时间：</label>
+									<div class="controls">
+										<input type="text" id="input03" class="input-xlarge">
+										<p class="help-block">*必填</p>
+									</div>
+								</div>
+								<div class="control-group">
+									<label for="input04" class="control-label">结束时间：</label>
+									<div class="controls">
+										<input type="text" id="input04" class="input-xlarge">
+										<p class="help-block">选填，如果为空则表示课程将一直开放</p>
+									</div>
+								</div>
+								<div class="control-group">
+									<label for="input05" class="control-label">课程价格：</label>
+									<div class="controls">
+										<input type="text" id="input05" class="input-xlarge">
+										<p class="help-block">选填，如果为空或为0则表示课程是免费的，否则是要收费的</p>
+									</div>
+								</div>
+
+								<div class="control-group">
+									<label for="textarea" class="control-label">课程简绍：</label>
+									<div class="controls">
+										<textarea rows="3" style="width: 100%" id="textarea"
+											class="input-xlarge"></textarea>
+									</div>
+								</div>
+								<div class="control-group">
+									<!--  
+								<label for="" class="control-label"><input type="button" value="dhcjkcr" class="btn"></label>
+								-->
+									<div class="span4"></div>
+									<div class="span2">
+										<input type="button" value="确定" class="btn btn-info">
+									</div>
+									<div class="span2">
+										<input type="button" value="取消" class="btn btn-warning">
+									</div>
+								</div>
+							</fieldset>
+
+						</form>
+					</div>
+				</section>
+
+				<section id="setlearningsteps">
+
+					<div class="well">
+						<div class="row-fluid">
+							<div class="alert alert-info">
+								<strong><i class="icon-cog"></i>设置学习步骤</strong>
+							</div>
+							<form class="form-horizontal">
+								<fieldset>
+									<div class="control-group">
+										<label for="select1" class="control-label">选择课程分类：</label>
+										<div class="controls">
+											<select id="select1">
+												<option>---请选择课程分类---</option>
+												<option>分类1</option>
+												<option>分类2</option>
+												<option>分类3</option>
+												<option>分类4</option>
+												<option>分类5</option>
+											</select>
+										</div>
+									</div>
+									<div class="control-group">
+										<label for="select2" class="control-label">选择课程名称：</label>
+										<div class="controls">
+											<select id="select2">
+												<option>---请选择课程名称---</option>
+												<option>课程1</option>
+												<option>课程2</option>
+												<option>课程3</option>
+												<option>课程4</option>
+												<option>课程5</option>
+											</select>
+										</div>
+									</div>
+									<div class="control-group">
+										<label for="select3" class="control-label">选择课程步骤：</label>
+										<div class="controls">
+											<select id="select3">
+												<option>---请选择课程步骤---</option>
+												<option>步骤1</option>
+												<option>步骤2</option>
+												<option>步骤3</option>
+												<option>步骤4</option>
+												<option>步骤5</option>
+											</select>
+										</div>
+									</div>
+									
+									<div>
+										<hr>
+									</div>
+									<div class="control-group">
+										<label for="input06" class="control-label"
+											style="display: inline">步骤名称：</label>
+										<div class="controls">
+											<input type="text" id="input06" class="input-xlarge">
+											<p class="help-block">*必填</p>
+										</div>
+									</div>
+									<div class="control-group">
+										<label for="input07" class="control-label">步骤描述：</label>
+										<div class="controls">
+											<input type="text" id="input07" class="input-xlarge">
+											<p class="help-block">*必填</p>
+										</div>
+									</div>
+									<div class="control-group">
+										<label for="input08" class="control-label">步骤周期：</label>
+										<div class="controls">
+											<input type="text" id="input08" class="input-xlarge">
+											<p class="help-block">每个步骤需要花费的周期数</p>
+										</div>
+									</div>
+									<div class="control-group">
+										<label for="input09" class="control-label">周期单位：</label>
+										<div class="controls">
+											<input type="text" id="input09" class="input-xlarge">
+											<p class="help-block">学习步骤花费的时间的单位(可为月、周、天)</p>
+										</div>
+									</div>
+
+									<div class="control-group">
+										<label for="textarea1" class="control-label">步骤描述：</label>
+										<div class="controls">
+											<textarea rows="3" style="width: 100%" id="textarea1"
+												class="input-xlarge"></textarea>
+										</div>
+									</div>
+									<div class="control-group">
+										<!--  
+								<label for="" class="control-label"><input type="button" value="dhcjkcr" class="btn"></label>
+								-->
+										<div class="alert alert-error">
+											<i class="icon-info-sign"></i><strong>只有所有阶段学习步骤都设置了，班级才会允许被发布！</strong>
+										</div>
+										<div class="span4"></div>
+										<div class="span2">
+											<input type="button" value="继续添加" class="btn btn-info">
+										</div>
+										<div class="span2">
+											<input type="button"
+												value="&nbsp;&nbsp;结&nbsp;&nbsp;束&nbsp;&nbsp;"
+												class="btn btn-warning">
+										</div>
+									</div>
+								</fieldset>
+							</form>
+						</div>
+					</div>
+				</section>
+
+				<section id="setupgrade">
+
+					<div class="well">
+						<form class="form-horizontal">
+							<fieldset>
+								<div class="alert alert-info">
+									<strong><i class="icon-cog"></i>建立班级</strong>
+								</div>
+
+								<div class="control-group">
+									<label for="input10" class="control-label">班级名称：</label>
+									<div class="controls">
+										<input type="text" id="input10" class="input-xlarge">
+										<p class="help-block">*必填</p>
+									</div>
+								</div>
+								<div class="control-group">
+									<label for="select11" class="control-label">所属课程：</label>
+									<div class="controls">
+										<select id="select11">
+											<option>课程1</option>
+											<option>课程2</option>
+											<option>课程3</option>
+											<option>课程4</option>
+											<option>课程5</option>
+										</select>
+									</div>
+								</div>
+								<div class="control-group">
+									<label for="input11" class="control-label">开课时间：</label>
+									<div class="controls">
+										<input type="text" id="input11" class="input-xlarge">
+										<p class="help-block">*必填</p>
+									</div>
+								</div>
+								<div class="control-group">
+									<label for="input12" class="control-label">结束时间：</label>
+									<div class="controls">
+										<input type="text" id="input12" class="input-xlarge">
+										<p class="help-block">*必填</p>
+									</div>
+								</div>
+								<div class="control-group">
+									<label for="input17" class="control-label">班级最大人数：</label>
+									<div class="controls">
+										<input type="text" id="input17" class="input-xlarge">
+										<p class="help-block">*必填，班级所允许的最大人数。</p>
+									</div>
+								</div>
+								<div class="control-group">
+									<label for="input13" class="control-label">班级最小人数：</label>
+									<div class="controls">
+										<input type="text" id="input13" class="input-xlarge">
+										<p class="help-block">班级开课的最少人数，默认为1。</p>
+									</div>
+								</div>
+
+								<div class="control-group">
+									<!--  
+								<label for="" class="control-label"><input type="button" value="dhcjkcr" class="btn"></label>
+								-->
+									<div class="span4"></div>
+									<div class="span2">
+										<input type="button" value="确定" class="btn btn-info">
+									</div>
+									<div class="span2">
+										<input type="button" value="取消" class="btn btn-warning">
+									</div>
+								</div>
+
+							</fieldset>
+
+						</form>
+					</div>
+				</section>
+
+				<section id="test3">
+
+					<div class="well">
+						<form class="form-horizontal">
+							<fieldset>
+								<div class="alert alert-info">
+									<strong><i class="icon-cog"></i>选择老师</strong>
+								</div>
+								<div class="control-group">
+									<label for="select12" class="control-label">班级所属课程列表：</label>
+									<div class="controls">
+										<select id="select12">
+											<option>课程1</option>
+											<option>课程2</option>
+											<option>课程3</option>
+											<option>课程4</option>
+											<option>课程5</option>
+										</select>
+									</div>
+								</div>
+								<div class="control-group">
+									<label for="select15" class="control-label">班级列表：</label>
+									<div class="controls">
+										<select id="select15">
+											<option>课程下班级1</option>
+											<option>课程下班级2</option>
+											<option>课程下班级3</option>
+											<option>课程下班级4</option>
+											<option>课程下班级5</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="control-group">
+									<label for="select13" class="control-label">老师所在机构列表：</label>
+									<div class="controls">
+										<select id="select13">
+											<option>机构1</option>
+											<option>机构2</option>
+											<option>机构3</option>
+											<option>机构4</option>
+											<option>机构5</option>
+										</select>
+									</div>
+								</div>
+
+								<div class="control-group">
+									<label for="select14" class="control-label">老师列表：</label>
+									<div class="controls">
+										<select id="select14">
+											<option>老师1</option>
+											<option>老师2</option>
+											<option>老师3</option>
+											<option>老师4</option>
+											<option>老师5</option>
+										</select>
+									</div>
+								</div>
+								<div class="control-group">
+									<!--  
+								<label for="" class="control-label"><input type="button" value="dhcjkcr" class="btn"></label>
+								-->
+									<div class="span4"></div>
+									<div class="span2">
+										<input type="button" value="确定" class="btn btn-info">
+									</div>
+									<div class="span2">
+										<input type="button" value="取消" class="btn btn-warning">
+									</div>
+								</div>
+
+							</fieldset>
+
+						</form>
+					</div>
+				</section>
+
+				<section id="test4">
+
+					<div class="well">
+						<form class="form-horizontal">
+							<fieldset>
+								<div class="alert alert-info">
+									<strong><i class="icon-cog"></i>发布班级</strong>
+								</div>
+								<strong>未发布班级列表</strong>
+								<table class="table table-striped">
+									<tr>
+										<th>班级名称</th>
+										<th>开课时间</th>
+										<th>结束时间</th>
+										<th>上课老师</th>
+										<th>操作</th>
+									</tr>
+									<tr>
+										<td>软件091</td>
+										<td>2012-12-02</td>
+										<td>2012-12-30</td>
+										<td>XXX</td>
+										<td><a class="btn" data-toggle="modal" href="#myModal"
+											data-keyboard="false" data-backdrop="false">发布</a></td>
+									</tr>
+									<tr>
+										<td>软件091</td>
+										<td>2012-12-02</td>
+										<td>2012-12-30</td>
+										<td>XXX</td>
+										<td><a class="btn" data-toggle="modal" href="#myModal"
+											data-keyboard="false" data-backdrop="false">发布</a></td>
+									</tr>
+									<tr>
+										<td>软件091</td>
+										<td>2012-12-02</td>
+										<td>2012-12-30</td>
+										<td>XXX</td>
+										<td><a class="btn" data-toggle="modal" href="#myModal"
+											data-keyboard="false" data-backdrop="false">发布</a></td>
+									</tr>
+									<tr>
+										<td>软件091</td>
+										<td>2012-12-02</td>
+										<td>2012-12-30</td>
+										<td>XXX</td>
+										<td><a class="btn" data-toggle="modal" href="#myModal"
+											data-keyboard="false" data-backdrop="false">发布</a></td>
+									</tr>
+									<tr>
+										<td>软件091</td>
+										<td>2012-12-02</td>
+										<td>2012-12-30</td>
+										<td>XXX</td>
+										<td><a class="btn" data-toggle="modal" href="#myModal"
+											data-keyboard="false" data-backdrop="false">发布</a></td>
+									</tr>
+									<tr>
+										<td>软件091</td>
+										<td>2012-12-02</td>
+										<td>2012-12-30</td>
+										<td>XXX</td>
+										<td><a class="btn" data-toggle="modal" href="#myModal"
+											data-keyboard="false" data-backdrop="false">发布</a></td>
+									</tr>
+									<tr>
+										<td>软件091</td>
+										<td>2012-12-02</td>
+										<td>2012-12-30</td>
+										<td>XXX</td>
+										<td><a class="btn" data-toggle="modal" href="#myModal"
+											data-keyboard="false" data-backdrop="false">发布</a></td>
+									</tr>
+									<tr>
+										<td>软件091</td>
+										<td>2012-12-02</td>
+										<td>2012-12-30</td>
+										<td>XXX</td>
+										<td><a class="btn" data-toggle="modal" href="#myModal"
+											data-keyboard="false" data-backdrop="false">发布</a></td>
+									</tr>
+									<tr>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+										<td></td>
+									</tr>
+								</table>
+								<div class="control-group">
+									<!--  
+									<label for="" class="control-label"><input type="button" value="dhcjkcr" class="btn"></label>
+									-->
+									<div class="span4"></div>
+									<div class="span2">
+										<input type="button" value="确定" class="btn btn-info">
+									</div>
+									<div class="span2">
+										<input type="button" value="取消" class="btn btn-warning">
+									</div>
+								</div>
+
+							</fieldset>
+
+						</form>
+						<div class="modal" id="myModal" style="display: none;">
+							<div class="modal-header">
+								<a class="close" data-dismiss="modal">×</a>
+								<h3>发布班级提示</h3>
+							</div>
+							<div class="modal-body">
+								<p>是否确定发布班级，发布之后，在班级还未结束之前不能取消发布。请想清楚？</p>
+							</div>
+							<div class="modal-footer">
+								<a href="#" class="btn">关闭</a> <a href="#"
+									class="btn btn-primary">确定</a>
+							</div>
+						</div>
+					</div>
+				</section>
+
+			</div>
+			<div class="position">
+				<div class="well">
+					<h5>
+						<strong>管理功能</strong>
+					</h5>
+					<ul class="nav nav-list">
+						<li class="active"><a href="#"><i
+								class="icon-white icon-home"></i> 课程发布</a></li>
+						<li><a href="#"><i class="icon-home"></i> 课程管理</a></li>
+						<li><a href="#"><i class="icon-book"></i> 学生管理</a></li>
+						<li><a href="#"><i class="icon-pencil"></i> 老师管理</a></li>
+						<li><a href="#"><i class="icon-user"></i> 资料管理</a></li>
+						<li class="divider"></li>
+						<li><a href="#"><i class="icon-flag"></i> 帮助</a></li>
+					</ul>
+				</div>
+				<div class="well">
+					<div id="datepicker"></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!-- /container -->
+	<!-- footer start -->
+	<div id="footer">
+		<br />高迈致远信息技术有限公司<br /> Copyright @2002-2012 GM123.cn Corporation,
+		All Rights Reserved
+	</div>
+	<!-- footer end -->
+
+	<!--  javascript  -->
+	<script src="../js/jquery.js"></script>
+	<!-- datepicker Start -->
+	<script src="../ui/jquery.ui.core.js"></script>
+	<script src="../ui/jquery.ui.widget.js"></script>
+	<script src="../ui/jquery.ui.datepicker.js"></script>
+	<!-- datepicker End -->
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+	<script src="assets/js/bootstrap-transition.js"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script src="assets/js/bootstrap-modal.js"></script>
+	<script src="assets/js/bootstrap-dropdown.js"></script>
+	<script src="../js/bootstrap-scrollspy.js"></script>
+	<script src="assets/js/bootstrap-tab.js"></script>
+	<script src="assets/js/bootstrap-tooltip.js"></script>
+	<script src="assets/js/bootstrap-popover.js"></script>
+	<script src="assets/js/bootstrap-button.js"></script>
+	<script src="assets/js/bootstrap-collapse.js"></script>
+	<script src="assets/js/bootstrap-carousel.js"></script>
+	<script src="assets/js/bootstrap-typeahead.js"></script>
+	<script src="../js/application.js"></script>
+
+
+</body>
+</html>

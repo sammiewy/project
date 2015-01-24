@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>资料上传</title>
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="../css/index.css" />
+<link rel="stylesheet" type="text/css" href="../css/rebluebootstrap.css" />
+<link rel="stylesheet" type="text/css" href="../css/docs.css" />
+<link rel="stylesheet" href="../themes/base/jquery.ui.all.css">
+<script src="../js/jquery-1.8.2.js"></script>
+<script>
+	$(function() {
+		$("#datepicker").datepicker();
+	});
+</script>
+</head>
+<body data-spy="scroll" data-target=".subnav" data-offset="50">
+	<!-- 顶部固定导航 -->
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner" style="height: 80px">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse"
+					data-target=".nav-collapse"> <span class="icon-bar"></span> <span
+					class="icon-bar"></span> <span class="icon-bar"></span>
+				</a> <a class="brand" style="color: #fff;" href="">IT精英人才俱乐部</a>
+				<div class="nav-collapse pull-right">
+					<ul class="nav">
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">成就能力 <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">在线培训</a></li>
+								<li><a href="#">IT精英弟子</a></li>
+								<li><a href="#">能力评测</a></li>
+								<li><a href="#">IT精英训练营</a></li>
+								<li><a href="#">IT精英梦工厂</a></li>
+							</ul></li>
+						<li class="divider-vertical"></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">实现价值<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">寻找工作</a></li>
+								<li><a href="#">项目协同</a></li>
+								<li><a href="#">好为人师</a></li>
+								<li><a href="#">训练营老师</a></li>
+								<li><a href="#">梦工厂老师</a></li>
+								<li><a href="#">评测老师</a></li>
+							</ul></li>
+						<li class="divider-vertical"></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">享受快乐<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">好友管理</a></li>
+								<li><a href="#">知识管理</a></li>
+								<li><a href="#">部落管理</a></li>
+							</ul></li>
+					</ul>
+					<p class="navbar-text pull-right">
+						欢迎您：<a href="">何大勇</a> | <a>退出</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end of top -->
+
+	<!-- Start of Content -->
+	<div class="container" style="margin-top: 90px">
+		<div class="row span12">
+			<a href="#"><i class="icon-home"></i>></a><a href="#">培训管理中心</a>><a
+				href="#">首页</a>
+		</div>
+		<hr />
+		<div class="row-fluid">
+			<div class="span8">
+
+
+					<div style="background-color: black; padding-top: 0px"></div>
+					<div class="alert alert-info">
+						<strong><i class="icon-cog"></i>上传资料</strong>
+					</div>
+					<div class="well">
+						<form class="well form-horizontal ">
+					        <fieldset>
+					          <legend>上传课程资料</legend>
+					          <div class="control-group">
+					            <label class="control-label" for="input01">资料名称</label>
+					            <div class="controls">
+					              <input type="text" class="input-xlarge" id="input01">
+					              <p class="help-block">
+							资料名称可为空，默认名称为上传的文件名称。
+						      </p>
+					            </div>
+					          </div>
+					          <div class="control-group">
+					            <label class="control-label">资料属性</label>
+					            <div class="controls">
+					              <label class="radio"  >
+					                <input type="radio" name="optionsRadios" id="optionsRadios1" value="option1" checked="">
+							 文档资料
+					              </label>
+					              <label class="radio"  >
+					                <input type="radio" name="optionsRadios" id="optionsRadios2" value="option2">
+							视频资料
+					              </label>
+					            </div>
+					          </div>
+					          <div class="control-group">
+					            <label class="control-label" for="select01">适用课程</label>
+					            <div class="controls">
+					              <select id="select01">
+					                <option>请选择</option>
+					                <option>java web程序开发</option>
+					                <option>c#   web程序开发</option>
+					                <option>c++ web程序开发</option>
+					                <option>C语言web程序开发</option>
+					              </select>
+					            </div>
+					          </div>
+					          <div class="control-group">
+					            <label class="control-label" for="select01">适用阶段</label>
+					            <div class="controls">
+					              <select id="select01">
+					                <option>请选择</option>
+					                <option>E阶段</option>
+					                <option>T阶段</option>
+					                <option>P阶段</option>
+					                <option>I阶段</option>
+					              </select>
+					            </div>
+					          </div>
+					          <div class="control-group">
+					            <label class="control-label" for="select01">资料类型</label>
+					            <div class="controls">
+					              <select id="select01">
+					                <option>课程资料</option>
+					                <option>积分资料</option>
+					              </select>
+					            </div>
+					          </div>
+					          <div class="control-group">
+					            <label class="control-label" for="input01">所需积分</label>
+					            <div class="controls">
+					              <input type="text" class="input-xlarge" id="input01">
+					            </div>
+					          </div>
+					          
+					          <div class="control-group">
+					            <label class="control-label" for="fileInput">上传资料</label>
+					            <div class="controls">
+					              <input class="input-file" id="fileInput" type="file">
+					            </div>
+					          </div>
+					          <div class="control-group">
+					            <label class="control-label" for="textarea">资料简介</label>
+					            <div class="controls">
+					              <textarea class="input-xlarge" id="textarea" rows="3"></textarea>
+					            </div>
+					          </div>
+					          <div class="form-actions">
+					            <button type="submit" class="btn btn-primary">确定</button>
+					            <button class="btn">重置</button>
+					          </div>
+					        </fieldset>
+					      </form>
+					</div>
+			
+			</div>
+			<div class="span4">
+				<div class="well">
+
+					<small><i class=" icon-time"></i>上次登录时间：2012年11月4日17:45:01</small>
+				</div>
+				<div class="well">功能导航</div>
+				<div class="well">
+				<div class="well">
+					<div class="alert alert-info">
+						<strong>&nbsp;&nbsp;&nbsp;&nbsp;E阶段培训管理</strong>
+					</div>
+
+					<ul style="text-align: center;">
+						<li><strong><a href="#">开设课程</a></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a
+								href="#">学生管理</a></strong></li>
+						<br />
+						<li><strong><a href="#">老师管理</a></strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><a
+								href="#">资料管理</a></strong></li>
+					</ul>
+
+				</div>
+				<div class="well">
+					<div id="datepicker"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- /container -->
+
+	<!-- footer start -->
+	<div id="footer">
+		<br />高迈致远信息技术有限公司<br /> Copyright @2002-2012 GM123.cn Corporation,
+		All Rights Reserved
+	</div>
+	<!-- footer end -->
+	<!-- Le javascript
+    ================================================== -->
+	<!-- Placed at the end of the document so the pages load faster
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script> -->
+	<script src="../js/jquery.js"></script>
+	<!-- datepicker Start -->
+	<script src="../ui/jquery.ui.core.js"></script>
+	<script src="../ui/jquery.ui.widget.js"></script>
+	<script src="../ui/jquery.ui.datepicker.js"></script>
+	<!-- datepicker End -->
+	<script src="assets/js/google-code-prettify/prettify.js"></script>
+	<script src="assets/js/bootstrap-transition.js"></script>
+	<script src="../js/bootstrap.js"></script>
+	<script src="assets/js/bootstrap-modal.js"></script>
+	<script src="assets/js/bootstrap-dropdown.js"></script>
+	<script src="../js/bootstrap-scrollspy.js"></script>
+	<script src="assets/js/bootstrap-tab.js"></script>
+	<script src="assets/js/bootstrap-tooltip.js"></script>
+	<script src="assets/js/bootstrap-popover.js"></script>
+	<script src="assets/js/bootstrap-button.js"></script>
+	<script src="assets/js/bootstrap-collapse.js"></script>
+	<script src="assets/js/bootstrap-carousel.js"></script>
+	<script src="assets/js/bootstrap-typeahead.js"></script>
+	<script src="../js/application.js"></script>
+</body>
+</html>

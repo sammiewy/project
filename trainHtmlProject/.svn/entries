@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2012-11-30T07:27:28.979033Z"
+   url="https://192.168.2.106/svn/trainHtml2/trunk/trainHtml4"
+   last-author="jinpin"
+   kind="dir"
+   uuid="70e37eeb-7869-6547-b852-c591405a270e"
+   repos="https://192.168.2.106/svn/trainHtml2"
+   revision="3"/>
+<entry
+   committed-rev="3"
+   name=".project"
+   text-time="2012-11-30T07:42:40.875000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="7e3c97d04046350755f76753778b1c13"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:10.296875Z"/>
+<entry
+   name="WebContent"
+   kind="dir"/>
+<entry
+   name=".settings"
+   kind="dir"/>
+</wc-entries>

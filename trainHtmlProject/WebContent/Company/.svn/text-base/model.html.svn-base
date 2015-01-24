@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<title>T管理中心-首页</title>
+<!-- css -->
+<link rel="stylesheet" type="text/css" href="../css/index.css" />
+<link rel="stylesheet" type="text/css" href="../css/rebluebootstrap.css" />
+<link rel="stylesheet" type="text/css" href="../css/docs.css" />
+<link rel="stylesheet" href="../themes/base/jquery.ui.all.css">
+<script src="../js/jquery-1.8.2.js"></script>
+<script src="../js/bootstrap-transition.js"></script>
+<script>
+	$(function() {
+		$("#datepicker").datepicker();
+		$("#accordion").accordion({
+			collapsible : true
+		});
+	});
+</script>
+</head>
+
+<body data-spy="scroll" data-target=".subnav" data-offset="50">
+	<!-- 顶部固定导航 -->
+	<div class="navbar navbar-fixed-top">
+		<div class="navbar-inner" style="height: 80px">
+			<div class="container">
+				<a class="btn btn-navbar" data-toggle="collapse"
+					data-target=".nav-collapse"> <span class="icon-bar"></span> <span
+					class="icon-bar"></span> <span class="icon-bar"></span>
+				</a> <a class="brand" style="color: #fff;" href="">IT精英人才俱乐部</a>
+				<div class="nav-collapse pull-right">
+					<ul class="nav">
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">成就能力 <b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">在线培训</a></li>
+								<li><a href="#">IT精英弟子</a></li>
+								<li><a href="#">能力评测</a></li>
+								<li><a href="#">IT精英训练营</a></li>
+								<li><a href="#">IT精英梦工厂</a></li>
+							</ul></li>
+						<li class="divider-vertical"></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">实现价值<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">寻找工作</a></li>
+								<li><a href="#">项目协同</a></li>
+								<li><a href="#">好为人师</a></li>
+								<li><a href="#">训练营老师</a></li>
+								<li><a href="#">梦工厂老师</a></li>
+								<li><a href="#">评测老师</a></li>
+							</ul></li>
+						<li class="divider-vertical"></li>
+						<li class="dropdown"><a href="#" class="dropdown-toggle"
+							data-toggle="dropdown">享受快乐<b class="caret"></b></a>
+							<ul class="dropdown-menu">
+								<li><a href="#">好友管理</a></li>
+								<li><a href="#">知识管理</a></li>
+								<li><a href="#">部落管理</a></li>
+							</ul></li>
+					</ul>
+					<p class="navbar-text pull-right">
+						欢迎您：<a href="">何大勇</a> | <a>退出</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- end of top -->
+
+	<!-- Start of Content -->
+	<div class="container" style="margin-top: 90px">
+		<div class="row span12">
+			<a href="#"><i class="icon-home"></i>></a><a href="#">培训管理中心</a>><a
+				href="#">课程管理</a>
+		</div>
+		<hr />
+		<div class="row-fluid">
+			<div class="span8">
+				<div style="margin-top: -21px;">
+					&nbsp;<img alt="有你有我" src="../img/9999.png">
+				</div>
+				<div class="well">
+					<fieldset>
+						<legend>课程列表</legend>
+					</fieldset>
+					<div class="row-fluid">
+
+
+						<div id="accordion">
+							<h3>课程1</h3>
+							<div>
+								内容。。。
+							</div>
+							<h3>课程2</h3>
+							<div>
+								内容。。。
+							</div>
+							<h3>课程3</h3>
+							<div>
+								内容。。。
+							</div>
+							<h3>课程4</h3>
+							<div>
+								内容。。。
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="span4">
+				<div class="well">
+					<fieldset>
+						<legend>
+							<strong>管理功能</strong>
+						</legend>
+					</fieldset>
+					<ul class="nav nav-list">
+						<li class="active"><a href="#"><i class="icon-book"></i>
+								课程管理</a></li>
+						<li><a href="#"><i class="icon-user"></i> 学生管理</a></li>
+						<li><a href="#"><i class="icon-user"></i> 老师管理</a></li>
+						<li><a href="#"><i class="icon-user"></i> 资料管理</a></li>
+						<li class="divider"></li>
+						<li><a href="#"><i class="icon-flag"></i> 帮助</a></li>
+					</ul>
+				</div>
+				<div class="well">
+					<div id="datepicker"></div>
+				</div>
+			</div>
+		</div>
+
+	</div>
+	<!-- /container -->
+	<!-- footer start -->
+	<div id="footer">
+		<br />高迈致远信息技术有限公司<br /> Copyright @2002-2012 GM123.cn Corporation,
+		All Rights Reserved
+	</div>
+	<!-- footer end -->
+
+	<!--  javascript  -->
+	<script src="../js/jquery.js"></script>
+	<!-- datepicker Start -->
+	<script src="../ui/jquery.ui.core.js"></script>
+	<script src="../ui/jquery.ui.widget.js"></script>
+	<script src="../ui/jquery.ui.datepicker.js"></script>
+	<!-- datepicker End -->
+	<script src="../js/bootstrap.js"></script>
+	<script src="../ui/jquery.ui.accordion.js"></script>
+	<script src="../js/bootstrap-scrollspy.js"></script>
+	<script src="../js/application.js"></script>
+
+
+</body>
+</html>

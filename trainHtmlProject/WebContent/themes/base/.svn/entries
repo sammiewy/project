@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wc-entries
+   xmlns="svn:">
+<entry
+   committed-rev="3"
+   name=""
+   committed-date="2012-11-30T07:27:28.979033Z"
+   url="https://192.168.2.106/svn/trainHtml2/trunk/trainHtml4/WebContent/themes/base"
+   last-author="jinpin"
+   kind="dir"
+   uuid="70e37eeb-7869-6547-b852-c591405a270e"
+   repos="https://192.168.2.106/svn/trainHtml2"
+   revision="11"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.dialog.css"
+   text-time="2012-11-30T07:42:15.078125Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="93d881c6299eaba6d6a160e28d2af90b"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:12.671875Z"/>
+<entry
+   committed-rev="3"
+   name="jquery-ui.css"
+   text-time="2012-11-30T07:42:15.109375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="9b382daef598d71f384dea5c103e8671"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:12.687500Z"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.accordion.css"
+   text-time="2012-11-30T07:42:15.140625Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="f9f007bafe48d84336a5c5c6047c9ac1"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:12.703125Z"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.autocomplete.css"
+   text-time="2012-11-30T07:42:15.125000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="78e11419a9aa3f3ea3c9964e2413a6c2"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:12.687500Z"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.theme.css"
+   text-time="2012-11-30T07:42:15.156250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="b8abbee49795f546e3553d44fb55ba99"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:12.718750Z"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.selectable.css"
+   text-time="2012-11-30T07:42:15.171875Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="33e4b55d62a78e1f5f7a0303d0ac1c98"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:12.718750Z"/>
+<entry
+   name="minified"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.menu.css"
+   text-time="2012-11-30T07:42:15.171875Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="0803c9a49d3ff335dee85a652fd297cc"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:14.250000Z"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.all.css"
+   text-time="2012-11-30T07:42:15.187500Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="2c15a87d53d297d870e63b07ee8cd1df"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:14.250000Z"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.base.css"
+   text-time="2012-11-30T07:42:15.203125Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="828975a23710610882dc69925d65b399"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:14.265625Z"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.button.css"
+   text-time="2012-11-30T07:42:15.250000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="3ace5824a98b47558c91fd3f93294866"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:14.281250Z"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.datepicker.css"
+   text-time="2012-11-30T07:42:15.234375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="8db304ea5394a35b00ef61487a07b74b"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:14.265625Z"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.spinner.css"
+   text-time="2012-11-30T07:42:15.265625Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="1891235595e105779301fbc5f91a43f8"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:14.296875Z"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.resizable.css"
+   text-time="2012-11-30T07:42:15.281250Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="5f8dd23bf27221161aad0ecbc1095c16"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:14.312500Z"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.slider.css"
+   text-time="2012-11-30T07:42:15.312500Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="1eac993e9d1fe7e4d6790cceb0aa745f"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:14.312500Z"/>
+<entry
+   name="images"
+   kind="dir"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.core.css"
+   text-time="2012-11-30T07:42:15.328125Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="561b3fcb82206d381cd30efd9debe62c"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:14.671875Z"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.progressbar.css"
+   text-time="2012-11-30T07:42:15.343750Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="d67940a5d5173f01714d42319d193d9a"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:15.046875Z"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.tabs.css"
+   text-time="2012-11-30T07:42:15.359375Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="fe3e6c6a42b2a70efc8c6f143b35bea6"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:15.062500Z"/>
+<entry
+   committed-rev="3"
+   name="jquery.ui.tooltip.css"
+   text-time="2012-11-30T07:42:15.375000Z"
+   committed-date="2012-11-30T07:27:28.979033Z"
+   checksum="adbb64daaad1ae2af9fda8161fcf2647"
+   last-author="jinpin"
+   kind="file"
+   prop-time="2012-11-30T07:42:15.062500Z"/>
+</wc-entries>
